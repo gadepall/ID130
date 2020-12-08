@@ -8,11 +8,15 @@
 int main(void)
 {
 
-int Z=1,Y=0,X=0,W=1;//inputs
+int Z=0x00,Y=0x01,X=0x01,W=0x01;//inputs in hex	
+int one = 0x01;
 int A,B,C,D;//outputs
 
-D = (W&X&Y&(~Z))|((~W)&(~X)&(~Y)&Z);//Boolean function
+D = (W&X&Y&(~Z))|((~W)&(~X)&(~Y)&Z);//Boolean function for D
+A = ((~W)&(~X)&(~Y)&(~Z))|((~W)&(X)&(~Y)&(~Z))|((~W)&(~X)&Y&(~Z))|((~W)&X&Y&(~Z))|((~W)&(~X)&(~Y)&(Z));
+//Boolean function for A
 
-printf("%x\n",D);//Output D
+printf("%x\n",one&D);//Output D
+printf("%x\n",one&A);//Output D
 return 0;
 }
