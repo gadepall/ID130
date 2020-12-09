@@ -1,3 +1,9 @@
 \contentsline {section}{\numberline {1}Seven Segment Display}{1}{section.1}%
 \contentsline {section}{\numberline {2}Incrementing Decoder}{1}{section.2}%
 \contentsline {section}{\numberline {3}Karnaugh Map}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Incrementing Decoder}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Display Decoder}{3}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Don't Care}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Incrementing Decoder}{4}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Programming}{4}{section.5}%
+\contentsline {section}{\numberline {6}Logic Gates}{4}{section.6}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  8 DEC 2020 14:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  9 DEC 2020 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2098,7 +2098,7 @@ Overfull \hbox (1.0pt too wide) in paragraph at lines 167--167
  []
 
 \gnumericColL=\skip106
-)) (./chapters/kmap.tex (./figs/kmap_A.tex
+)) (./chapters/kmap_inc.tex (./figs/kmap_A.tex
 \@karnaughmap@local@testcaseone@=\count404
 \@karnaughmap@local@testcasetwo@=\count405
 \@karnaughmap@local@coordinateonecounter@=\count406
@@ -2111,12 +2111,19 @@ Overfull \hbox (1.0pt too wide) in paragraph at lines 167--167
 \@karnaughmap@local@coordinatetwocounter@=\count413
 \@karnaughmap@local@coordinateonecounter@=\count414
 \@karnaughmap@local@coordinatetwocounter@=\count415
-) (./figs/kmap_B.tex
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./figs/kmap_B.tex
 \@karnaughmap@local@northwest@=\count416
 \@karnaughmap@local@southeast@=\count417
 \@karnaughmap@local@northwest@=\count418
 \@karnaughmap@local@southeast@=\count419
-) [2]
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 (./figs/kmap_C.tex
 \@karnaughmap@local@northwest@=\count420
 \@karnaughmap@local@southeast@=\count421
@@ -2128,29 +2135,87 @@ Overfull \hbox (1.0pt too wide) in paragraph at lines 167--167
 \@karnaughmap@local@coordinatetwocounter@=\count427
 \@karnaughmap@local@coordinateonecounter@=\count428
 \@karnaughmap@local@coordinatetwocounter@=\count429
-) (./figs/kmap_D.tex
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./figs/kmap_D.tex
 \@karnaughmap@local@northwest@=\count430
 \@karnaughmap@local@southeast@=\count431
 \@karnaughmap@local@northwest@=\count432
 \@karnaughmap@local@southeast@=\count433
-)) [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
+) [2]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapters/kmap_disp.tex (./figs/disp/kmap/b.tex
+\@karnaughmap@local@northwest@=\count434
+\@karnaughmap@local@southeast@=\count435
+\@karnaughmap@local@northwest@=\count436
+\@karnaughmap@local@southeast@=\count437
+)
+Underfull \vbox (badness 1270) has occurred while \output is active []
+
+ [3]
+(./figs/disp/kmap/d.tex
+\@karnaughmap@local@testcaseone@=\count438
+\@karnaughmap@local@testcasetwo@=\count439
+\@karnaughmap@local@coordinateonecounter@=\count440
+\@karnaughmap@local@coordinatetwocounter@=\count441
+\@karnaughmap@local@coordinateonecounter@=\count442
+\@karnaughmap@local@coordinatetwocounter@=\count443
+\@karnaughmap@local@northwest@=\count444
+\@karnaughmap@local@southeast@=\count445
+\@karnaughmap@local@northwest@=\count446
+\@karnaughmap@local@southeast@=\count447
+)) (./chapters/kmapX_inc.tex (./figs/inc/kmapX/B.tex
+\@karnaughmap@local@northwest@=\count448
+\@karnaughmap@local@southeast@=\count449
+\@karnaughmap@local@northwest@=\count450
+\@karnaughmap@local@southeast@=\count451
+)
+(./figs/inc/kmapX/C.tex
+\@karnaughmap@local@cellcount@=\count452
+\@karnaughmap@local@testcaseone@=\count453
+\@karnaughmap@local@testcasetwo@=\count454
+\@karnaughmap@local@coordinateonecounter@=\count455
+\@karnaughmap@local@coordinatetwocounter@=\count456
+\@karnaughmap@local@coordinateonecounter@=\count457
+\@karnaughmap@local@coordinatetwocounter@=\count458
+\@karnaughmap@local@testcaseone@=\count459
+\@karnaughmap@local@testcasetwo@=\count460
+\@karnaughmap@local@coordinateonecounter@=\count461
+\@karnaughmap@local@coordinatetwocounter@=\count462
+\@karnaughmap@local@coordinateonecounter@=\count463
+\@karnaughmap@local@coordinatetwocounter@=\count464
+\@karnaughmap@local@testcaseone@=\count465
+\@karnaughmap@local@testcasetwo@=\count466
+\@karnaughmap@local@coordinateonecounter@=\count467
+\@karnaughmap@local@coordinatetwocounter@=\count468
+\@karnaughmap@local@coordinateonecounter@=\count469
+\@karnaughmap@local@coordinatetwocounter@=\count470
+)) [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
  (./gvv_digman.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
 Package rerunfilecheck Info: File `gvv_digman.out' has not changed.
-(rerunfilecheck)             Checksum: E4D936453C170FF3BF8F8DAD61AC5528;158.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
+(rerunfilecheck)             Checksum: 820A9D63E55F2121BD76024162499E2D;497.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
  ) 
 Here is how much of TeX's memory you used:
- 44084 strings out of 480608
- 1021760 string characters out of 5892806
- 1473477 words of memory out of 5000000
- 59026 multiletter control sequences out of 15000+600000
+ 44537 strings out of 480608
+ 1032523 string characters out of 5892806
+ 1513187 words of memory out of 5000000
+ 59440 multiletter control sequences out of 15000+600000
  609273 words of font info for 189 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,19n,91p,652b,1255s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,19n,91p,652b,1265s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}</data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
 public/txfonts/rtxb.pfb></data/data/com.termux/files/usr/share/texlive/texmf-di
@@ -2158,15 +2223,16 @@ st/fonts/type1/public/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share/
 texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></data/data/com.termux/f
 iles/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></data/d
 ata/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tx
-sy.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fo
-nts/type1/urw/times/utmbi8a.pfb></data/data/com.termux/files/usr/share/texlive/
-texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_digman.pdf (3 pages, 79658 bytes).
+ex.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/txfonts/txsy.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.termux/files/usr
+/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.term
+ux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on gvv_digman.pdf (4 pages, 90240 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
