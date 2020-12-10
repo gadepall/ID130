@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  9 DEC 2020 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  10 DEC 2020 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2025,21 +2025,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 \gnumericColG=\skip101
 \gnumericColH=\skip102
 )) (./chapters/incdec.tex
-(./tables/counter_decoder.tex)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
+(./tables/counter_decoder.tex) [1
 Non-PDF special ignored!
 <special> papersize=614.295pt,794.96999pt
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/map/pdftex/updm
 ap/pdftex.map}
 
 
-] (./tables/disp_dec.tex
+]) (./chapters/dispdec.tex (./tables/disp_dec.tex
 Overfull \hbox (1.0pt too wide) in paragraph at lines 157--157
 []|\OT1/txr/m/n/12 x| 
  []
@@ -2111,19 +2104,12 @@ Overfull \hbox (1.0pt too wide) in paragraph at lines 167--167
 \@karnaughmap@local@coordinatetwocounter@=\count413
 \@karnaughmap@local@coordinateonecounter@=\count414
 \@karnaughmap@local@coordinatetwocounter@=\count415
-)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-(./figs/kmap_B.tex
+) [2] (./figs/kmap_B.tex
 \@karnaughmap@local@northwest@=\count416
 \@karnaughmap@local@southeast@=\count417
 \@karnaughmap@local@northwest@=\count418
 \@karnaughmap@local@southeast@=\count419
 )
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 (./figs/kmap_C.tex
 \@karnaughmap@local@northwest@=\count420
 \@karnaughmap@local@southeast@=\count421
@@ -2144,19 +2130,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 \@karnaughmap@local@southeast@=\count431
 \@karnaughmap@local@northwest@=\count432
 \@karnaughmap@local@southeast@=\count433
-) [2]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chapters/kmap_disp.tex (./figs/disp/kmap/b.tex
+) [3]) (./chapters/kmap_disp.tex (./figs/disp/kmap/b.tex
 \@karnaughmap@local@northwest@=\count434
 \@karnaughmap@local@southeast@=\count435
 \@karnaughmap@local@northwest@=\count436
 \@karnaughmap@local@southeast@=\count437
 )
-Underfull \vbox (badness 1270) has occurred while \output is active []
-
- [3]
 (./figs/disp/kmap/d.tex
 \@karnaughmap@local@testcaseone@=\count438
 \@karnaughmap@local@testcasetwo@=\count439
@@ -2168,51 +2147,73 @@ Underfull \vbox (badness 1270) has occurred while \output is active []
 \@karnaughmap@local@southeast@=\count445
 \@karnaughmap@local@northwest@=\count446
 \@karnaughmap@local@southeast@=\count447
-)) (./chapters/kmapX_inc.tex (./figs/inc/kmapX/B.tex
+) (./figs/disp/kmap/e.tex
 \@karnaughmap@local@northwest@=\count448
 \@karnaughmap@local@southeast@=\count449
 \@karnaughmap@local@northwest@=\count450
 \@karnaughmap@local@southeast@=\count451
-)
-(./figs/inc/kmapX/C.tex
-\@karnaughmap@local@cellcount@=\count452
-\@karnaughmap@local@testcaseone@=\count453
-\@karnaughmap@local@testcasetwo@=\count454
-\@karnaughmap@local@coordinateonecounter@=\count455
-\@karnaughmap@local@coordinatetwocounter@=\count456
-\@karnaughmap@local@coordinateonecounter@=\count457
-\@karnaughmap@local@coordinatetwocounter@=\count458
-\@karnaughmap@local@testcaseone@=\count459
-\@karnaughmap@local@testcasetwo@=\count460
-\@karnaughmap@local@coordinateonecounter@=\count461
-\@karnaughmap@local@coordinatetwocounter@=\count462
-\@karnaughmap@local@coordinateonecounter@=\count463
-\@karnaughmap@local@coordinatetwocounter@=\count464
-\@karnaughmap@local@testcaseone@=\count465
-\@karnaughmap@local@testcasetwo@=\count466
+\@karnaughmap@local@testcaseone@=\count452
+\@karnaughmap@local@testcasetwo@=\count453
+\@karnaughmap@local@coordinateonecounter@=\count454
+\@karnaughmap@local@coordinatetwocounter@=\count455
+\@karnaughmap@local@coordinateonecounter@=\count456
+\@karnaughmap@local@coordinatetwocounter@=\count457
+)) (./chapters/kmapX_inc.tex
+(./figs/inc/kmapX/B.tex
+\@karnaughmap@local@northwest@=\count458
+\@karnaughmap@local@southeast@=\count459
+\@karnaughmap@local@northwest@=\count460
+\@karnaughmap@local@southeast@=\count461
+) (./figs/inc/kmapX/C.tex
+\@karnaughmap@local@cellcount@=\count462
+\@karnaughmap@local@testcaseone@=\count463
+\@karnaughmap@local@testcasetwo@=\count464
+\@karnaughmap@local@coordinateonecounter@=\count465
+\@karnaughmap@local@coordinatetwocounter@=\count466
 \@karnaughmap@local@coordinateonecounter@=\count467
 \@karnaughmap@local@coordinatetwocounter@=\count468
-\@karnaughmap@local@coordinateonecounter@=\count469
-\@karnaughmap@local@coordinatetwocounter@=\count470
-)) [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+\@karnaughmap@local@testcaseone@=\count469
+\@karnaughmap@local@testcasetwo@=\count470
+\@karnaughmap@local@coordinateonecounter@=\count471
+\@karnaughmap@local@coordinatetwocounter@=\count472
+\@karnaughmap@local@coordinateonecounter@=\count473
+\@karnaughmap@local@coordinatetwocounter@=\count474
+\@karnaughmap@local@testcaseone@=\count475
+\@karnaughmap@local@testcasetwo@=\count476
+\@karnaughmap@local@coordinateonecounter@=\count477
+\@karnaughmap@local@coordinatetwocounter@=\count478
+\@karnaughmap@local@coordinateonecounter@=\count479
+\@karnaughmap@local@coordinatetwocounter@=\count480
+)) (./chapters/kmapX_disp.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+(./figs/disp/kmapX/b.tex
+\@karnaughmap@local@northwest@=\count481
+\@karnaughmap@local@southeast@=\count482
+\@karnaughmap@local@northwest@=\count483
+\@karnaughmap@local@southeast@=\count484
+\@karnaughmap@local@testcaseone@=\count485
+\@karnaughmap@local@testcasetwo@=\count486
+\@karnaughmap@local@coordinateonecounter@=\count487
+\@karnaughmap@local@coordinatetwocounter@=\count488
+\@karnaughmap@local@coordinateonecounter@=\count489
+\@karnaughmap@local@coordinatetwocounter@=\count490
+)) [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
  (./gvv_digman.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
 Package rerunfilecheck Info: File `gvv_digman.out' has not changed.
-(rerunfilecheck)             Checksum: 820A9D63E55F2121BD76024162499E2D;497.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
+(rerunfilecheck)             Checksum: DC7535B2F6F53B256BDD820013BE1F58;613.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
- 44537 strings out of 480608
- 1032523 string characters out of 5892806
- 1513187 words of memory out of 5000000
- 59440 multiletter control sequences out of 15000+600000
+ 44775 strings out of 480608
+ 1038144 string characters out of 5892806
+ 1493830 words of memory out of 5000000
+ 59649 multiletter control sequences out of 15000+600000
  609273 words of font info for 189 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,19n,91p,652b,1265s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2229,10 +2230,10 @@ blic/txfonts/txsy.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist
 e/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.termux/files/usr
 /share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.term
 ux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_digman.pdf (4 pages, 90240 bytes).
+Output written on gvv_digman.pdf (5 pages, 94032 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 280 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
