@@ -1,0 +1,34 @@
+\begin{tikzpicture}
+    \node (x) at (0.5, 2) {${W}$};
+    \node (y) at (0, 1) {${X}$};
+    \node (z) at (1,0) {${Y}$};
+
+    
+    \node[nand gate US, draw, rotate=0, logic gate inputs=nnn] at ($(y) + (2, 0.085)$) (xory) {};
+
+    \draw (x) -- ([xshift=0.2cm]x) |-(xory.input 1);
+    \draw (y) -- ([xshift=0.4cm]y) |-(xory.input 2);
+    \draw (z) -| ($(y) + (0.6, -0.3)$) |- (xory.input 3);
+
+
+    
+        
+   
+   
+      
+     \node (x) at (0.5, -2) {$\bar{W}$};
+    \node (y) at (0, -3) {$Z$};
+        
+    \node[nand gate US, draw, rotate=0, logic gate inputs=nn] at ($(y) + (2, 0.085)$) (xory1) {};
+
+    \draw (x) -- ([xshift=0.2cm]x) |-(xory1.input 1);
+    \draw (y) -- ([xshift=0.2cm]y) |-(xory1.input 2);
+         
+     \node[nand gate US, draw, rotate=0, logic gate inputs=nn] at ($(xory.output) + (2, -2)$) (xory2) {};
+
+    \draw (xory.output) -- ([xshift=0.2cm]xory.output) |-(xory2.input 1);
+    \draw (xory1.output) -- ([xshift=0.2cm]xory1.output) |-(xory2.input 2);
+     \draw (xory2.output) -- node[above]{$\bar{W}Z+WXY$} ($(xory2) + (3, 0)$);
+
+
+\end{tikzpicture}

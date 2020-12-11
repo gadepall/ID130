@@ -1,0 +1,305 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{amsmath}
+\usepackage{amsthm}
+    \usepackage[latin1]{inputenc}                                 %%
+    \usepackage{color}                                            %%
+    \usepackage{array}                                            %%
+    \usepackage{longtable}                                        %%
+    \usepackage{calc}                                             %%
+    \usepackage{multirow}                                         %%
+    \usepackage{hhline}                                           %%
+    \usepackage{ifthen}                                           %%
+  %optionally (for landscape tables embedded in another document): %%
+    \usepackage{lscape}     
+\usepackage{iithtlc}
+\usepackage{circuitikz}
+\usepackage{tikz}
+\usetikzlibrary{arrows, shapes.gates.logic.US, calc}
+
+\def\inputGnumericTable{}                                 %%
+\begin{document}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newcommand{\solution}{\noindent \textbf{Solution: }}
+\title{
+\logo{
+Decade counter using CMOS
+}
+}
+\author{Parijat Mitra$^{\dagger}$ and GVV Sharma$^{*}$
+\thanks{$\dagger$ Parijat is a UG student at IIT Bhilai. He did this work as an intern at IIT Hyderabad. *The author is with the Department
+of Electrical Engineering, Indian Institute of Technology, Hyderabad
+502285 India e-mail:  gadepall@iith.ac.in. All content in this manual is released under GNU GPL.  Free and open source.}
+}
+\maketitle
+\begin{abstract}
+This manual shows how to use CMOS to design logic gates for a decade counter.
+\end{abstract}
+
+\section{Components}
+\begin{table}[!h]
+\centering
+\input{./figs/components.tex}
+\caption{}
+\label{table:components}
+\end{table}
+
+\section{CMOS Logic Gates}
+The CMOS logic gates can be designed using the CD4007 IC shown in Fig. \ref{fig:exm}.
+\begin{figure}[!h]
+ \centering 
+% \scalebox{0.3}
+ {\includegraphics[width=\columnwidth]{./figs/CD4007.eps}} 
+ \caption{CD4007}
+ \label{fig:exm} 
+\end{figure}
+
+\subsection{NOT}
+As shown in Fig. \ref{fig:not}, one PMOS and one NMOS elements in Fig. \ref{fig:exm} are required.
+
+
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./figs/notgate.tex}
+}
+\caption{NOT Gate}
+\label{fig:not}
+\end{figure}
+
+\subsection{NAND}
+ 
+NAND gate is one of the two universal logic gates which can be used to construct any logic gate.
+Fig. \ref{fig:NAND-2} shows how to construct a 2 input NAND gate.
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./figs/2inputnandgate.tex}
+}
+\caption{2 - Input NAND Gate}
+\label{fig:NAND-2}
+\end{figure}
+%
+3-input NAND gate can be formed with the help of CMOS as per Fig. \ref{fig:NAND-3}.
+%
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./figs/3inputnandgate.tex}
+}
+\caption{3 - Input NAND Gate}
+\label{fig:NAND-3}
+\end{figure}
+
+\section{Seven Segment Display}
+\begin{problem}
+Connect the 7447 IC in Fig. \ref{fig:7447}  to the seven segment display in Fig. \ref{fig:sevenseg} and display all numbers from 0-9.
+\end{problem}
+%
+\subsection{Counting Decoder}
+%
+A counting decoder increments the input by 1 and has the following logic
+\begin{align}
+\label{eq:countingA}
+A&=\overline{W}
+\\
+B&=W\bar{X}\bar{Z}+\bar{W}X 
+\\
+C&=\bar{X}Y+\bar{W}Y+WX\bar{Y}
+\\
+D&=\bar{W}Z+WXY
+\label{eq:countingD}
+\end{align}
+\begin{center}
+\end{center}
+where W,X,Y,Z are inputs and A,B,C,D are outputs.
+%
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./figs/7447.tex}
+}
+\caption{7447}
+\label{fig:7447}
+\end{figure}
+%
+%
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./figs/sevenseg.tex}
+}
+\caption{Seven Segment Display}
+\label{fig:sevenseg}
+\end{figure}
+%
+\subsection{CMOS Counting Decoder}
+\begin{problem}
+Express \eqref{eq:countingA}-\eqref{eq:countingD} using NAND logic
+\end{problem}
+\solution
+\begin{align}
+A&=\overline{W}
+\\
+B&=W\bar{X}\bar{Z}+\bar{W}X =\overline{(\overline{W\bar{X}\bar{Z}}).(\overline{\bar{W}X})}
+\\
+C&=\bar{X}Y+\bar{W}Y+WX\bar{Y}
+\\
+&=\overline{(\overline{\bar{X}Y}).(\overline{\bar{W}Y}).(\overline{WX\bar{Y}})}
+\\
+D&=\bar{W}Z+WXY=\overline{(\overline{\bar{W}Z}).(\overline{WXY})}
+\end{align}
+\begin{problem}
+Express $A$ through CMOS logic.
+\end{problem}
+\solution
+The logic for A is an inverter. Construct a circuit similar to Fig.\ref{fig:not} which is a simple NOT gate.
+When input is W then output is $\overline{W}$.
+\begin{problem}
+Express $B$ through CMOS logic.
+\end{problem}
+\solution Fig. \ref{fig:CMOS_B}, followed by Fig. \ref{fig:not}.
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./figs/logicforb.tex}
+}
+\caption{CMOS Logic for $\overline{B}$}
+\label{fig:CMOS_B}
+\end{figure}
+\begin{problem}
+Express $C$ through CMOS logic.
+\end{problem}
+\solution Fig. \ref{fig:CMOS_C}, followed by Fig. \ref{fig:not}.
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./figs/logicforc.tex}
+}
+\caption{CMOS Logic for $\overline{C}$}
+\label{fig:CMOS_C}
+\end{figure}
+\begin{problem}
+Express $C$ through CMOS logic.
+\end{problem}
+\solution Fig. \ref{fig:CMOS_D}, followed by Fig. \ref{fig:not}.
+
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./figs/logicford.tex}
+}
+\caption{CMOS Logic for $\overline{D}$}
+\label{fig:CMOS_D}
+\end{figure}
+
+\begin{problem}
+Design the 7447 IC using CMOS logic.
+\end{problem}
+\section{Decade Counter}
+%
+\subsection{Clock}
+Fig. \ref{fig:clock} shows a clock, which is a series of pulses with period $T$.
+%
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./figs/clockoutput.tex}
+}
+\caption{clock output}
+\label{fig:clock}
+\end{figure}
+\begin{problem}
+Design a circuit for generating Fig. \ref{fig:clock}.
+\end{problem}
+\solution Fig. \ref{fig:clock_circuit} can be used to generate the clock in Fig. \ref{fig:clock}.
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./figs/clockcircuit.tex}
+}
+\caption{Clock Circuit}
+\label{fig:clock_circuit}
+\end{figure}
+%
+\begin{problem}
+Explain the circuit in Fig. \ref{fig:clock_circuit}.
+\end{problem}
+\solution In Fig. \ref{fig:clock_circuit},  let ${R_1}>{R_2}$.
+The circuit is an astable multivibrator. It is made up of two NOT gates. When the output of second not gate is HIGH, the input of second not gate is LOW. The capacitor charges up which changes the output of second not gate from HIGH to LOW. Now we have output of second not gate LOW and its input HIGH. This makes the capacitor to be reverse biased. This is followed by discharging of capacitor. Due to discharging of capacitor, the output of second not gate again becomes HIGH. This process continues and what the observer observes is a series of HIGH and LOW voltages at the output. 
+\begin{problem}
+Explain why $R_1 > R_2$.
+\end{problem}
+\solution The CD4007 IC in Fig. \ref{fig:exm} has input switching voltage point at 0.5Vcc. We are using Vcc as 5V. Hence, input voltages ranging from 3.5 to 5 V are recognised as HIGH and voltages from 0 to 1.5 V as LOW for this IC. The voltages in input and output of second not gate can be only 0 or Vcc. 
+%The voltage-time graph of the output is shown in Fig.11.
+The schematic turns in the other stage when $V_1$ is equal to the half of the power voltage.
+When the second gate output flips from 1 to 0, the capacitor is charged to -0.5Vcc (the left plate is negative), so V1 becomes -0.5Vcc and starts to increase because $R_2$ is connected to Vcc.  $R_1$ does not affect the time period at all. It is placed there so that the input current of the inverter does not affect the work of the schematic. That is why it should be much bigger than $R_2$.
+\begin{problem}
+Obtain the time period of the clock $T$.
+\end{problem}
+\solution Let $\tau = R_2C$.  Then,
+\begin{align}
+{V_1} &= Vcc.(1-e^{-\frac{t}{\tau}}) - \frac{Vcc}{2} .e^{-\frac{t}{\tau}}
+\\
+&= Vcc - \frac{3.Vcc}{2}.e^{-\frac{t}{\tau}}
+\end{align}
+%
+The switching of the schematic will happen when 
+%
+\begin{align}
+V_1 &= \frac{Vcc}{2}
+\\ 
+\implies  \frac{Vcc}{2} &= Vcc - \frac{3.Vcc}{2}.e^{-\frac{t}{\tau}}
+\\
+\implies t &= \tau\ln3 = {R_2}C\ln3 
+\end{align}
+%
+%${}$ becomes equal to 0.5Vcc i.e. $$, so:
+%$$$$
+%$$\Rightarrow \frac{Vcc}{2} = \frac{3.Vcc}{2}.e^{-\frac{t}{\tau}}$$
+%$$\Rightarrow \frac{1}{3} = e^{-\frac{t}{\tau}}$$
+%$$\Rightarrow 3 = e^{\frac{t}{\tau}}$$
+%$$\Rightarrow ln3 = \frac{t}{\tau}$$
+%$$= 1.098612289.{R_2}.C$$
+This is the half of the period (because the schematic switches exactly on the half of the Vcc), so the period
+\begin{equation}
+T = 2t = 2\ln3{R_2}C
+\end{equation}
+%$$$$
+%$$\approx 2.2.{R_2}.{C}$$
+We can choose a specific value of ${R_2}$ and $C$ to achieve any particular time period for the clock.
+%
+\subsection{ Flip Flop}
+%
+\begin{problem}
+Design a circuit for the D-Flip Flop.
+\end{problem}
+\solution See Fig. \ref{fig:dflipflop}.  Note that a clock is necessary for building a Flip Flop.
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./figs/dflipflop.tex}
+}
+\caption{D Flip-flop}
+\label{fig:dflipflop}
+\end{figure}
+%
+\begin{problem}
+Design a decade counter.
+\end{problem}
+\solution See Fig. \ref{fig:decade}
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./figs/decadecountercircuit.tex}
+}
+\caption{circuit for decade counter}
+\label{fig:decade}
+\end{figure}
+
+\end{document}
+
+
+
+

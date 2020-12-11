@@ -1,0 +1,12 @@
+\begin{circuitikz}[american voltages, european resistors]
+\draw
+  (0,0) node[pmos] (pmosA) {}
+  (0,-2) node[nmos] (nmosB) {}
+  (pmosA.G) to (nmosB.G)
+  (pmosA.D) to (nmosB.D)
+  ($(pmosA.G)!0.5!(nmosB.G)$) to[short,-o] ++(-1,0) node[left] {W}
+  ($(pmosA.D)!0.5!(nmosB.D)$) to[short,-o] ++(1,0) node[right] {$\overline{W}$}
+  (nmosB.S) node[ground] {}
+  (pmosA.S) to[short,-o] ++(0,0.5) node[left] {VCC};
+  
+\end{circuitikz}

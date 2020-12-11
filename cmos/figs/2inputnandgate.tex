@@ -1,0 +1,19 @@
+\begin{circuitikz}[american voltages, european resistors]
+\draw
+(0,0) node[pmos] (pmosA) {}
+(2,0) node[pmos] (pmosB) {}
+(pmosA.S) to (pmosB.S)
+($(pmosA.S)!0.5!(pmosB.S)$) to [short,*-o] ++(0,1) {} node[right] {VCC}
+(pmosA.D) to (pmosB.D)
+($(pmosA.D)!0.5!(pmosB.D)$) to [short,-*]  ++(0,0) node[nmos,anchor=D] (nmosD) {}
+(1,-3) node[nmos] (nmosE) {}
+(nmosD.S) to (nmosE.D)
+(nmosE.S) node[ground] {}
+(pmosA.G) to[short,-o] ++(0,0) node[left] {A}
+(pmosB.G) to[short,-o] ++(0,0) node[left] {B}
+(nmosD.G) to[short,-o] ++(0,0) node[left] {A}
+(nmosE.G) to[short,-o] ++(0,0) node[left] {B}
+(pmosA.D) to (pmosB.D) 
+ to [short,*-o] ++(1,0) {} node[right] {$Y=\overline{AB}$};
+
+\end{circuitikz}
