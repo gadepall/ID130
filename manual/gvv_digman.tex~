@@ -58,9 +58,6 @@
 \usepackage{chngcntr}
 \usepackage{blkarray}
 \usepackage{karnaugh-map}
-%\usetikzlibrary{arrows, shapes.gates.logic.US, calc}
-\usetikzlibrary{arrows,shapes.gates.logic.US,shapes.gates.logic.IEC,calc}
-
 %\usepackage{enumerate}
 
 %\usepackage{wasysym}
@@ -155,8 +152,7 @@ columns=fullflexible
 \let\StandardTheFigure\thefigure
 \let\vec\mathbf
 %\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
-%\renewcommand{\thefigure}{\theproblem}
-\renewcommand{\thefigure}{\thesection}
+\renewcommand{\thefigure}{\theproblem}
 %\setlist[enumerate,1]{before=\renewcommand\theequation{\theenumi.\arabic{equation}}
 %\counterwithin{equation}{enumi}
 

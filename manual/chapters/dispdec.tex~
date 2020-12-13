@@ -9,13 +9,13 @@
 %
 \begin{align}
 \label{eq:disp_a}
-a &=
+a=
 \\
 \label{eq:disp_b}
-b &= AB^{\prime}CD^{\prime}+A^{\prime}BCD^{\prime}
+b = AB^{\prime}CD^{\prime}+A^{\prime}BCD^{\prime}
 \\
 \label{eq:disp_c}
-c &= {D}^{\prime}{C}^{\prime}B{A}^{\prime}
+c = {D}^{\prime}{C}^{\prime}B{A}^{\prime}
 \\
 d &= 
 \label{eq:disp_d}

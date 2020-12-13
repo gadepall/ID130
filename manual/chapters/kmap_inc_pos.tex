@@ -1,6 +1,10 @@
+%\renewcommand{\theequation}{\thesection}
+%\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+%\numberwithin{equation}{enumi}
+%\numberwithin{figure}{enumi}
+%\numberwithin{table}{enumi}
 
 \numberwithin{equation}{section}
-\numberwithin{figure}{section}
 
 Using the 0s in Table \ref{table:counter_decoder}, the product of sums (POS) expressions are
 obtained from Figs. \ref{fig:kmap_A_pos}-\ref{fig:kmap_D_pos} as
@@ -20,6 +24,8 @@ A&=(Z^{\prime}+Y^{\prime})W^{\prime}(Z^{\prime}+X^{\prime})
 \end{align}
 %
 
+%\renewcommand{\thefigure}{\thesection}
+\numberwithin{figure}{section}
 
 \begin{figure}[!h]
 \centering

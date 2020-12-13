@@ -9,4 +9,4 @@
 \contentsline {subsection}{\numberline {5.2}Display Decoder}{5}{subsection.5.2}%
 \contentsline {section}{\numberline {6}Programming}{5}{section.6}%
 \contentsline {section}{\numberline {7}Logic Gates}{5}{section.7}%
-\contentsline {section}{\numberline {8}Product of Sums}{5}{section.8}%
+\contentsline {section}{\numberline {8}Product of Sums}{6}{section.8}%
