@@ -1,0 +1,71 @@
+Use K-maps to obtain the minimized expressions for 
+$a,b,c,d,e,f,g$ in terms of $A,B,C,D$ in Table \ref{table:disp_dec} 
+without don't care conditions.
+
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item Obtain the expression for $b$ using Fig. \ref{fig:disp_kmap_b}
+
+
+\solution
+
+\begin{align}
+\label{eq:kmap_disp_b}
+b &= A B^{\prime}C D^{\prime} + A^{\prime}B C D^{\prime}
+\\
+&=C D^{\prime}\brak{A B^{\prime} \oplus A^{\prime}B}
+\end{align}
+%
+where $\oplus$ denotes the XOR operation.
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!} {
+\input{figs/disp/kmap/b.tex}
+}
+\caption{K-map for $b$.}
+\label{fig:disp_kmap_b}
+\end{figure}
+%
+\item Obtain the expression for $d$ using Fig. \ref{fig:disp_kmap_d}
+\solution
+
+
+\begin{align}
+\label{eq:kmap_disp_d}
+d=AB^{\prime}C^{\prime}+A^{\prime}B^{\prime}CD^{\prime}+ABCD^{\prime}
+\end{align}
+%
+where $\oplus$ denotes the XOR operation.
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!} {
+\input{figs/disp/kmap/d.tex}
+}
+\caption{K-map for $d$.}
+\label{fig:disp_kmap_d}
+\end{figure}
+\item Obtain the expression for $e$ using Fig. \ref{fig:disp_kmap_e}
+%
+\begin{align}
+\label{eq:kmap_disp_e}
+e=AD^{\prime}+B^{\prime}CD^{\prime}+AB^{\prime}C^{\prime}
+\end{align}
+%
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!} {
+\input{figs/disp/kmap/e.tex}
+}
+\caption{K-map for $e$.}
+\label{fig:disp_kmap_e}
+\end{figure}
+
+%
+\end{enumerate}
+%
+%
