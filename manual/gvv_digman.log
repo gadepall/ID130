@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  13 DEC 2020 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  15 DEC 2020 11:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2177,49 +2177,55 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 \@karnaughmap@local@coordinatetwocounter@=\count459
 \@karnaughmap@local@northwest@=\count460
 \@karnaughmap@local@southeast@=\count461
-))
-(./chapters/kmapX_inc.tex (./figs/inc/kmapX/B.tex
+)
+(./figs/disp/kmap/g.tex
 \@karnaughmap@local@northwest@=\count462
 \@karnaughmap@local@southeast@=\count463
 \@karnaughmap@local@northwest@=\count464
 \@karnaughmap@local@southeast@=\count465
-) (./figs/inc/kmapX/C.tex
-\@karnaughmap@local@cellcount@=\count466
-\@karnaughmap@local@testcaseone@=\count467
-\@karnaughmap@local@testcasetwo@=\count468
-\@karnaughmap@local@coordinateonecounter@=\count469
-\@karnaughmap@local@coordinatetwocounter@=\count470
-\@karnaughmap@local@coordinateonecounter@=\count471
-\@karnaughmap@local@coordinatetwocounter@=\count472
-\@karnaughmap@local@testcaseone@=\count473
-\@karnaughmap@local@testcasetwo@=\count474
+)) (./chapters/kmapX_inc.tex (./figs/inc/kmapX/B.tex
+\@karnaughmap@local@northwest@=\count466
+\@karnaughmap@local@southeast@=\count467
+\@karnaughmap@local@northwest@=\count468
+\@karnaughmap@local@southeast@=\count469
+)
+[4] (./figs/inc/kmapX/C.tex
+\@karnaughmap@local@cellcount@=\count470
+\@karnaughmap@local@testcaseone@=\count471
+\@karnaughmap@local@testcasetwo@=\count472
+\@karnaughmap@local@coordinateonecounter@=\count473
+\@karnaughmap@local@coordinatetwocounter@=\count474
 \@karnaughmap@local@coordinateonecounter@=\count475
 \@karnaughmap@local@coordinatetwocounter@=\count476
-\@karnaughmap@local@coordinateonecounter@=\count477
-\@karnaughmap@local@coordinatetwocounter@=\count478
-\@karnaughmap@local@testcaseone@=\count479
-\@karnaughmap@local@testcasetwo@=\count480
+\@karnaughmap@local@testcaseone@=\count477
+\@karnaughmap@local@testcasetwo@=\count478
+\@karnaughmap@local@coordinateonecounter@=\count479
+\@karnaughmap@local@coordinatetwocounter@=\count480
 \@karnaughmap@local@coordinateonecounter@=\count481
 \@karnaughmap@local@coordinatetwocounter@=\count482
-\@karnaughmap@local@coordinateonecounter@=\count483
-\@karnaughmap@local@coordinatetwocounter@=\count484
-)
-[4]) (./chapters/kmapX_disp.tex (./figs/disp/kmapX/b.tex
-\@karnaughmap@local@northwest@=\count485
-\@karnaughmap@local@southeast@=\count486
-\@karnaughmap@local@northwest@=\count487
-\@karnaughmap@local@southeast@=\count488
-\@karnaughmap@local@testcaseone@=\count489
-\@karnaughmap@local@testcasetwo@=\count490
-\@karnaughmap@local@coordinateonecounter@=\count491
-\@karnaughmap@local@coordinatetwocounter@=\count492
-\@karnaughmap@local@coordinateonecounter@=\count493
-\@karnaughmap@local@coordinatetwocounter@=\count494
-))
-(./chapters/gates.tex (./figs/gates/B.tex) (./figs/gates/b_disp.tex)
-(./figs/gates/a_disp.tex) [5] (./figs/gates/d_disp.tex))
-(./chapters/kmap_inc_pos.texpdfTeX warning (ext4): destination with the same id
-entifier (name{equation.8.1}) has been already used, duplicate ignored
+\@karnaughmap@local@testcaseone@=\count483
+\@karnaughmap@local@testcasetwo@=\count484
+\@karnaughmap@local@coordinateonecounter@=\count485
+\@karnaughmap@local@coordinatetwocounter@=\count486
+\@karnaughmap@local@coordinateonecounter@=\count487
+\@karnaughmap@local@coordinatetwocounter@=\count488
+)) (./chapters/kmapX_disp.tex
+(./figs/disp/kmapX/b.tex
+\@karnaughmap@local@northwest@=\count489
+\@karnaughmap@local@southeast@=\count490
+\@karnaughmap@local@northwest@=\count491
+\@karnaughmap@local@southeast@=\count492
+\@karnaughmap@local@testcaseone@=\count493
+\@karnaughmap@local@testcasetwo@=\count494
+\@karnaughmap@local@coordinateonecounter@=\count495
+\@karnaughmap@local@coordinatetwocounter@=\count496
+\@karnaughmap@local@coordinateonecounter@=\count497
+\@karnaughmap@local@coordinatetwocounter@=\count498
+)) (./chapters/gates.tex (./figs/gates/B.tex)
+(./figs/gates/b_disp.tex) [5] (./figs/gates/a_disp.tex)
+(./figs/gates/d_disp.tex)) (./chapters/kmap_inc_pos.texpdfTeX warning (ext4): d
+estination with the same identifier (name{equation.8.1}) has been already used,
+ duplicate ignored
 <to be read again> 
                    \relax 
 l.24 \end{align}
@@ -2229,10 +2235,6 @@ me{equation.8.2}) has been already used, duplicate ignored
                    \relax 
 l.24 \end{align}
                 
-\@karnaughmap@local@northwest@=\count495
-\@karnaughmap@local@southeast@=\count496
-\@karnaughmap@local@northwest@=\count497
-\@karnaughmap@local@southeast@=\count498
 \@karnaughmap@local@northwest@=\count499
 \@karnaughmap@local@southeast@=\count500
 \@karnaughmap@local@northwest@=\count501
@@ -2245,32 +2247,37 @@ l.24 \end{align}
 \@karnaughmap@local@southeast@=\count508
 \@karnaughmap@local@northwest@=\count509
 \@karnaughmap@local@southeast@=\count510
-\@karnaughmap@local@northwest@=\count511
-\@karnaughmap@local@southeast@=\count512
-\@karnaughmap@local@coordinate@=\count513
-\@karnaughmap@local@coordinate@=\count514
-\@karnaughmap@local@coordinate@=\count515
-\@karnaughmap@local@coordinate@=\count516
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-\@karnaughmap@local@northwest@=\count517
-\@karnaughmap@local@southeast@=\count518
-\@karnaughmap@local@northwest@=\count519
-\@karnaughmap@local@southeast@=\count520
+\@karnaughmap@local@northwest@=\count511
+\@karnaughmap@local@southeast@=\count512
+\@karnaughmap@local@northwest@=\count513
+\@karnaughmap@local@southeast@=\count514
+\@karnaughmap@local@northwest@=\count515
+\@karnaughmap@local@southeast@=\count516
+\@karnaughmap@local@coordinate@=\count517
+\@karnaughmap@local@coordinate@=\count518
+\@karnaughmap@local@coordinate@=\count519
+\@karnaughmap@local@coordinate@=\count520
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 \@karnaughmap@local@northwest@=\count521
 \@karnaughmap@local@southeast@=\count522
 \@karnaughmap@local@northwest@=\count523
 \@karnaughmap@local@southeast@=\count524
 \@karnaughmap@local@northwest@=\count525
 \@karnaughmap@local@southeast@=\count526
+\@karnaughmap@local@northwest@=\count527
+\@karnaughmap@local@southeast@=\count528
+\@karnaughmap@local@northwest@=\count529
+\@karnaughmap@local@southeast@=\count530
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [6] [7
-
-]
+) [6] [7]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
  (./gvv_digman.aux)
@@ -2281,10 +2288,10 @@ Package rerunfilecheck Info: File `gvv_digman.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
  ) 
 Here is how much of TeX's memory you used:
- 46228 strings out of 480608
- 1077290 string characters out of 5892806
- 1536702 words of memory out of 5000000
- 61045 multiletter control sequences out of 15000+600000
+ 46333 strings out of 480608
+ 1079947 string characters out of 5892806
+ 1541276 words of memory out of 5000000
+ 61144 multiletter control sequences out of 15000+600000
  609273 words of font info for 189 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,19n,91p,725b,1263s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2301,10 +2308,10 @@ blic/txfonts/txsy.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist
 e/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.termux/files/usr
 /share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.term
 ux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_digman.pdf (7 pages, 106702 bytes).
+Output written on gvv_digman.pdf (7 pages, 107898 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 103 named destinations out of 1000 (max. 500000)
+ 329 PDF objects out of 1000 (max. 8388607)
+ 291 compressed objects within 3 object streams
+ 106 named destinations out of 1000 (max. 500000)
  205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
