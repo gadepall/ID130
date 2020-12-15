@@ -5,7 +5,7 @@
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
-\item वर्धमान गूढ़वाचक में आगत  दशमलव अंक  $0,1,\dots,9$  द्वयाधारी संख्या रूप में हैं एवं  परवर्ती संख्या निर्गत है । तालिका \ref{table:counter_decoder} में अनुरूप सत्य तालिका  उपलब्ध है
+\item परवर्ती गूढ़वाचक में आगत  दशमलव अंक  $0,1,\dots,9$  द्वयाधारी संख्या रूप में हैं एवं  परवर्ती संख्या निर्गत है । सारणी \ref{table:counter_decoder} में अनुरूप सत्य सारणी  उपलब्ध है
 ।
 %\onecolumn
 \begin{table}[!h]
@@ -14,10 +14,10 @@
 %{
 \input{./tables/counter_decoder}
 %}
-\caption{वर्धमान गूढ़वाचक की सत्य तालिका  }
+\caption{परवर्ती गूढ़वाचक की सत्य सारणी  }
 \label{table:counter_decoder}
 \end{table}
-\item बूल तर्कानुसार तालिका \ref{table:counter_decoder} में निर्गत चर $A, B, C$ एवं $D$  को आगत चर $W,X,Y,Z$ के द्वारा  निम्न रूप से व्यक्त किया जा सकता है
+\item बूलीय तर्कानुसार सारणी \ref{table:counter_decoder} में निर्गत चर $A, B, C$ एवं $D$  को आगत चर $W,X,Y,Z$ के द्वारा  निम्न रूप से व्यक्त किया जा सकता है
 %
 \begin{align}
 \label{eq:inc_A}
@@ -44,7 +44,7 @@ C &= WXY^{\prime}Z^{\prime} + W^{\prime}X^{\prime}YZ^{\prime}
 D &= WXYZ^{\prime} + W^{\prime}X^{\prime}Y^{\prime}Z
 \label{eq:inc_D}
 \end{align}
-\item निम्न कोड को अलग अलग आगत मूल्यों के लिये निष्पादित कर \eqref{eq:inc_A}-\eqref{eq:inc_D} को सत्यापित करें ।
+\item निम्न गूढ़ को भिन्न भिन्न आगत मूल्यों के लिये निष्पादित कर \eqref{eq:inc_A}-\eqref{eq:inc_D} को सत्यापित करें ।
 \label{code:inc_decode}
 \begin{lstlisting}
 codes/inc_decode.c

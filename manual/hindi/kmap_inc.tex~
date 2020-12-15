@@ -103,7 +103,7 @@ D = WXYZ^{\prime} + W^{\prime}X^{\prime}Y^{\prime}Z
 %\end{lstlisting}
 %
 %and modify it using 
-क-मानचित्र द्वारा उपलब्ध  A,B,C एवं D के समीकरण \eqref{eq:kmap_A}, \eqref{eq:kmap_A}, \eqref{eq:kmap_A}
+क-मानचित्र द्वारा उपलब्ध  A,B,C and D के समीकरण \eqref{eq:kmap_A}, \eqref{eq:kmap_A}, \eqref{eq:kmap_A}
 एवं \eqref{eq:kmap_A} को सत्यापित करें ।
 %Execute and verify.
 %\item Revise by using don't care conditions and verify through a C code.

@@ -5,11 +5,11 @@
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
-\item Using Boolean logic, outputs $a,b,c,d,e,f,g$  in Table \ref{table:disp_dec} can be expressed in terms of the inputs $A,B,C,D$ as
+\item   निम्न समीकरण में  सारणी \ref{table:disp_dec}  के निर्गत चर  $a,b,c,d,e,f,g$ की अभिव्यक्ति आगत चर $A,B,C,D$ के द्वारा की गयी है
 %
 \begin{align}
 \label{eq:disp_a}
-a &=
+a &= AB^{\prime}C^{\prime}D^{\prime}+A^{\prime}B^{\prime}CD^{\prime}
 \\
 \label{eq:disp_b}
 b &= AB^{\prime}CD^{\prime}+A^{\prime}BCD^{\prime}
@@ -17,27 +17,29 @@ b &= AB^{\prime}CD^{\prime}+A^{\prime}BCD^{\prime}
 \label{eq:disp_c}
 c &= {D}^{\prime}{C}^{\prime}B{A}^{\prime}
 \\
-d &= 
+d &= AB^{\prime}C^{\prime}D^{\prime}+A^{\prime}B^{\prime}CD^{\prime}+ABCD^{\prime}+AB^{\prime}C^{\prime}D
 \label{eq:disp_d}
 \\
-e &= 
+e &= AB^{\prime}C^{\prime}D^{\prime}+ABC^{\prime}D^{\prime}+A^{\prime}B^{\prime}CD^{\prime}+AB^{\prime}CD^{\prime}
+\nonumber \\
+&\quad +ABCD^{\prime}+AB^{\prime}C^{\prime}D
 \label{eq:disp_e}
 \\
-f &= 
+f &= AB^{\prime}C^{\prime}D^{\prime}+A^{\prime}BC^{\prime}D^{\prime}+ABC^{\prime}D^{\prime}+ABCD^{\prime}
 \label{eq:disp_f}
 \\
-g &= 
+g &= A^{\prime}B^{\prime}C^{\prime}D^{\prime}+AB^{\prime}C^{\prime}D^{\prime}+ABCD^{\prime}
 \label{eq:disp_g}
 \end{align}
 \begin{table}
 \centering
 \input{./tables/disp_dec.tex}
-\caption{Truth table for display decoder.}
+\caption{प्रदर्शी गूढ़वाचक की सत्य सारिणी ।}
 \label{table:disp_dec}
 \end{table}
 
-\item Execute the following code for different input values to verify 
-\eqref{eq:disp_a}-\eqref{eq:disp_g}.
+\item निम्न गूढ़ को अलग अलग आगत मूल्यों के लिये निष्पादित कर \eqref{eq:disp_a}-\eqref{eq:disp_g} को सत्यापित करें ।
+
 \label{code:disp_decode}
 \begin{lstlisting}
 codes/disp_decode.c

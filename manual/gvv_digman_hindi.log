@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Termux) (preloaded format=xelatex 2020.12.13)  13 DEC 2020 21:36
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Termux) (preloaded format=xelatex 2020.12.13)  15 DEC 2020 20:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1941,86 +1941,86 @@ t;"
 (./gvv_digman_hindi.aux)
 \openout1 = `gvv_digman_hindi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 96.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 98.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-96.
+98.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oml
 txmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 98.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-96.
+98.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oms
 txsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
-6.
+8.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr
 .fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 98.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-96.
+98.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/omx
 txex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 98.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 9
-6.
+8.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 exa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
 
 
 LaTeX Font Warning: Font shape `TU/Sanskrit_2003.ttf(0)/b/n' undefined
 (Font)              using `TU/Sanskrit_2003.ttf(0)/m/n' instead on input line 9
-6.
+8.
 
 
 LaTeX Font Warning: Font shape `TU/Sanskrit_2003.ttf(0)/m/it' undefined
 (Font)              using `TU/Sanskrit_2003.ttf(0)/m/n' instead on input line 9
-6.
+8.
 
 
 LaTeX Font Warning: Font shape `TU/Sanskrit_2003.ttf(0)/b/it' undefined
 (Font)              using `TU/Sanskrit_2003.ttf(0)/b/n' instead on input line 9
-6.
+8.
 
 -- Lines per column: 50 (exact).
-LaTeX Info: Redefining \celsius on input line 96.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 96.
+LaTeX Info: Redefining \celsius on input line 98.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 98.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 96.
-Package gensymb Info: Using \Omega for \ohm on input line 96.
+LaTeX Info: Redefining \ohm on input line 98.
+Package gensymb Info: Using \Omega for \ohm on input line 98.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -2046,7 +2046,7 @@ Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box134
-Package hyperref Info: Link coloring OFF on input line 96.
+Package hyperref Info: Link coloring OFF on input line 98.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/na
 meref.sty
@@ -2062,22 +2062,22 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count402
 )
-LaTeX Info: Redefining \ref on input line 96.
-LaTeX Info: Redefining \pageref on input line 96.
-LaTeX Info: Redefining \nameref on input line 96.
+LaTeX Info: Redefining \ref on input line 98.
+LaTeX Info: Redefining \pageref on input line 98.
+LaTeX Info: Redefining \nameref on input line 98.
  (./gvv_digman_hindi.out) (./gvv_digman_hindi.out)
 \@outlinefile=\write4
 \openout4 = `gvv_digman_hindi.out'.
 
 \c@lstlisting=\count403
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
-6.
+8.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1
 txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 96
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 98
 .
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ur
@@ -2085,48 +2085,48 @@ sfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 9
-6.
+8.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 mia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 9
-6.
+8.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 sya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 9
-6.
+8.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 syb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
-6.
+8.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 syc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for OT1+txss on input line 
-96.
+98.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1
 txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 96.
+(Font)              scaled to size 11.39996pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 96.
+(Font)              scaled to size 7.59998pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 96.
+(Font)              scaled to size 5.69998pt on input line 98.
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-96.
+98.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1
 txtt.fd
@@ -2138,18 +2138,18 @@ File: ot1txtt.fd 2000/12/15 v3.1
 \c@lemma=\count407
 \c@example=\count408
 \c@rem=\count409
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 251.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 253.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 13.29996pt on input line 251.
+(Font)              scaled to size 13.29996pt on input line 253.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.30992pt on input line 251.
+(Font)              scaled to size 9.30992pt on input line 253.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 251.
+(Font)              scaled to size 6.64998pt on input line 253.
 
 
 LaTeX Font Warning: Font shape `TU/Sanskrit_2003.ttf(0)/m/sc' undefined
 (Font)              using `TU/Sanskrit_2003.ttf(0)/m/n' instead on input line 2
-54.
+56.
 
 (./gvv_digman_hindi.toc)
 \tf@toc=\write5
@@ -2182,38 +2182,142 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 1881) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 
 ])
-[2
+(./hindi/dispdec.tex
+Underfull \hbox (badness 2293) in paragraph at lines 8--10
+[]\TU/Sanskrit_2003.ttf(0)/m/sc/12 निम्न समीकरण में सारणी []3.1.1[] के निर्गत च
+र
+ []
+
+(./tables/disp_dec.tex
+Overfull \hbox (1.19336pt too wide) in paragraph at lines 157--157
+[]|\TU/Sanskrit_2003.ttf(0)/m/sc/12 x| 
+ []
+
+
+Overfull \hbox (1.19336pt too wide) in paragraph at lines 158--158
+[]|\TU/Sanskrit_2003.ttf(0)/m/sc/12 x| 
+ []
+
+
+Overfull \hbox (1.19336pt too wide) in paragraph at lines 159--159
+[]|\TU/Sanskrit_2003.ttf(0)/m/sc/12 x| 
+ []
+
+
+Overfull \hbox (1.19336pt too wide) in paragraph at lines 160--160
+[]|\TU/Sanskrit_2003.ttf(0)/m/sc/12 x| 
+ []
+
+
+Overfull \hbox (1.19336pt too wide) in paragraph at lines 161--161
+[]|\TU/Sanskrit_2003.ttf(0)/m/sc/12 x| 
+ []
+
+
+Overfull \hbox (1.19336pt too wide) in paragraph at lines 162--162
+[]|\TU/Sanskrit_2003.ttf(0)/m/sc/12 x| 
+ []
+
+
+Overfull \hbox (1.19336pt too wide) in paragraph at lines 163--163
+[]|\TU/Sanskrit_2003.ttf(0)/m/sc/12 x| 
+ []
+
+
+Overfull \hbox (1.19336pt too wide) in paragraph at lines 164--164
+[]|\TU/Sanskrit_2003.ttf(0)/m/sc/12 x| 
+ []
+
+\gnumericColI=\skip103
+
+Overfull \hbox (1.19336pt too wide) in paragraph at lines 165--165
+[]|\TU/Sanskrit_2003.ttf(0)/m/sc/12 x| 
+ []
+
+\gnumericColJ=\skip104
+
+Overfull \hbox (1.19336pt too wide) in paragraph at lines 166--166
+[]|\TU/Sanskrit_2003.ttf(0)/m/sc/12 x| 
+ []
+
+\gnumericColK=\skip105
+
+Overfull \hbox (1.19336pt too wide) in paragraph at lines 167--167
+[]|\TU/Sanskrit_2003.ttf(0)/m/sc/12 x| 
+ []
+
+\gnumericColL=\skip106
+)) (./hindi/kmap_inc.tex
+Missing character: There is no । in font txr!
+ [2] (./figs/inc/kmap/kmap_A.tex
+\@karnaughmap@local@testcaseone@=\count410
+\@karnaughmap@local@testcasetwo@=\count411
+\@karnaughmap@local@coordinateonecounter@=\count412
+\@karnaughmap@local@coordinatetwocounter@=\count413
+\@karnaughmap@local@coordinateonecounter@=\count414
+\@karnaughmap@local@coordinatetwocounter@=\count415
+\@karnaughmap@local@testcaseone@=\count416
+\@karnaughmap@local@testcasetwo@=\count417
+\@karnaughmap@local@coordinateonecounter@=\count418
+\@karnaughmap@local@coordinatetwocounter@=\count419
+\@karnaughmap@local@coordinateonecounter@=\count420
+\@karnaughmap@local@coordinatetwocounter@=\count421
+)
+(./figs/inc/kmap/kmap_B.tex
+\@karnaughmap@local@northwest@=\count422
+\@karnaughmap@local@southeast@=\count423
+\@karnaughmap@local@northwest@=\count424
+\@karnaughmap@local@southeast@=\count425
+) (./figs/inc/kmap/kmap_C.tex
+\@karnaughmap@local@northwest@=\count426
+\@karnaughmap@local@southeast@=\count427
+\@karnaughmap@local@northwest@=\count428
+\@karnaughmap@local@southeast@=\count429
+\@karnaughmap@local@testcaseone@=\count430
+\@karnaughmap@local@testcasetwo@=\count431
+\@karnaughmap@local@coordinateonecounter@=\count432
+\@karnaughmap@local@coordinatetwocounter@=\count433
+\@karnaughmap@local@coordinateonecounter@=\count434
+\@karnaughmap@local@coordinatetwocounter@=\count435
+)
+(./figs/inc/kmap/kmap_D.tex
+\@karnaughmap@local@northwest@=\count436
+\@karnaughmap@local@southeast@=\count437
+\@karnaughmap@local@northwest@=\count438
+\@karnaughmap@local@southeast@=\count439
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [3] [4
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 330.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 330.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 332.
  (./gvv_digman_hindi.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 330.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 330.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 332.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 332.
 Package rerunfilecheck Info: File `gvv_digman_hindi.out' has not changed.
-(rerunfilecheck)             Checksum: F4E1207C16367A16A1EE532ECC9DF81E;160.
+(rerunfilecheck)             Checksum: 6727267C0B67D36C27EA1951E85639F9;411.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 332.
  ) 
 Here is how much of TeX's memory you used:
- 48611 strings out of 479418
- 1141704 string characters out of 5874903
- 1600566 words of memory out of 5000000
- 65210 multiletter control sequences out of 15000+600000
+ 49257 strings out of 479418
+ 1156428 string characters out of 5874903
+ 1689697 words of memory out of 5000000
+ 65834 multiletter control sequences out of 15000+600000
  559448 words of font info for 125 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 60i,12n,91p,679b,1112s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,91p,679b,1232s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_digman_hindi.pdf (2 pages).
+Output written on gvv_digman_hindi.pdf (4 pages).

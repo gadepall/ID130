@@ -17,7 +17,7 @@
 \label{fig:sevenseg}
 \end{figure}
 
-\item चित्र \ref{fig:sevenseg12} तालिका \ref{table:arduioport} के माध्यम से  प्रदर्शी पर अंको को दर्शाता हैे । 0-9 तक सारे अंको को रेखांकित कर तालिका \ref{table:arduioport}  की पूर्ति करें ।
+\item चित्र \ref{fig:sevenseg12} सारणी \ref{table:arduioport} के माध्यम से  प्रदर्शी पर अंको को दर्शाता हैे । 0-9 तक सारे अंको को रेखांकित कर सारणी \ref{table:arduioport}  को पूर्ण करें ।
 
 \begin{figure}[!h]
 \begin{center}
