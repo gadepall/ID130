@@ -59,9 +59,13 @@
 \usepackage{blkarray}
 \usepackage{karnaugh-map}
 \usepackage{fontspec}
+\usepackage[intoc]{nomencl}
+\makenomenclature
+
 %\usetikzlibrary{arrows, shapes.gates.logic.US, calc}
 \usetikzlibrary{arrows,shapes.gates.logic.US,shapes.gates.logic.IEC,calc}
-\setmainfont{Sanskrit_2003.ttf}
+%\setmainfont{Sanskrit_2003.ttf}
+\setmainfont{Nakula.ttf}
 %\setmainfont{Lohit-Devanagari.ttf}
 
 
@@ -255,10 +259,14 @@ columns=fullflexible
 
 \tableofcontents
 
+
 \bigskip
 
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
+\renewcommand{\abstractname}{सार}
+\renewcommand{\nomname}{नामकरण}
+
 %\renewcommand{\theequation}{\theenumi}
 
 %\begin{abstract}
@@ -298,6 +306,10 @@ columns=fullflexible
 %This manual provides a simple introduction to Digital Design.
 \end{abstract}
 
+%\section{Nomenclature}
+\printnomenclature[1.7in]
+\input{hindi/nomen.tex}
+
 
 \section{सप्तांश   प्रदर्शी }
 \input{hindi/sevenseg.tex}
@@ -328,6 +340,8 @@ columns=fullflexible
 %\section{Product of Sums}
 %%\subsection{Incrementing Decoder}
 %\input{chapters/kmap_inc_pos.tex}
+
+%\onecolumn
 
 \end{document}
 
