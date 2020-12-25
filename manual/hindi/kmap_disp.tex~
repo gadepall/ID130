@@ -135,7 +135,7 @@ f= BC^{\prime}D^{\prime} + AB^{\prime}C^{\prime}D^{\prime} + AB^{\prime}CD
 \resizebox{\columnwidth}{!} {
 \input{figs/disp/kmap/f.tex}
 }
-\caption{$f$ का क-मानचित्र।}
+\caption{$f$ का क-मानचित्र}
 \label{fig:disp_kmap_f}
 \end{figure}
 

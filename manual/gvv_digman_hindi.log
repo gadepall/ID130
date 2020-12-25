@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Termux) (preloaded format=xelatex 2020.12.13)  24 DEC 2020 21:03
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Termux) (preloaded format=xelatex 2020.12.13)  25 DEC 2020 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2202,10 +2202,11 @@ LaTeX Font Warning: Font shape `TU/Nakula.ttf(0)/m/sc' undefined
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 )) (./hindi/nomen.tex) (./hindi/sevenseg.tex
-(./figs/sevenseg.tex) [1
+(./figs/sevenseg.tex) (./figs/sevenseg12.tex)
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-] (./figs/sevenseg12.tex) (./tables/arduinoport.tex
+(./tables/arduinoport.tex
 \gnumericTableWidth=\skip94
 \gnumericTableWidthComplete=\skip95
 \gnumericMultiRowLength=\skip96
@@ -2217,12 +2218,22 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 \gnumericColF=\skip102
 \gnumericColG=\skip103
 \gnumericColH=\skip104
-))
-(./hindi/incdec.tex (./tables/counter_decoder.tex)) (./hindi/dispdec.tex
+)) (./hindi/incdec.tex (./tables/counter_decoder.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1
+
+
+]) (./hindi/dispdec.tex
 Underfull \hbox (badness 5563) in paragraph at lines 8--10
 []\TU/Nakula.ttf(0)/m/sc/12 निम्न समीकरण में सारणी []3.1.1[] के निर्गत
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
 (./tables/disp_dec.tex
 Overfull \hbox (1.0pt too wide) in paragraph at lines 157--157
 []|\TU/Nakula.ttf(0)/m/sc/12 x| 
@@ -2284,7 +2295,7 @@ Overfull \hbox (1.0pt too wide) in paragraph at lines 167--167
 \gnumericColL=\skip108
 )) (./hindi/kmap_inc.tex
 Missing character: There is no । in font txr!
- [2] (./figs/inc/kmap/kmap_A.tex
+ (./figs/inc/kmap/kmap_A.tex
 \@karnaughmap@local@testcaseone@=\count411
 \@karnaughmap@local@testcasetwo@=\count412
 \@karnaughmap@local@coordinateonecounter@=\count413
@@ -2298,7 +2309,10 @@ Missing character: There is no । in font txr!
 \@karnaughmap@local@coordinateonecounter@=\count421
 \@karnaughmap@local@coordinatetwocounter@=\count422
 )
-(./figs/inc/kmap/kmap_B.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./figs/kmap.tex) (./figs/inc/kmap/kmap_B.tex
 \@karnaughmap@local@northwest@=\count423
 \@karnaughmap@local@southeast@=\count424
 \@karnaughmap@local@northwest@=\count425
@@ -2306,10 +2320,6 @@ Missing character: There is no । in font txr!
 )
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 2980) has occurred while \output is active []
-
 
 (./figs/inc/kmap/kmap_C.tex
 \@karnaughmap@local@northwest@=\count427
@@ -2322,35 +2332,127 @@ Underfull \vbox (badness 2980) has occurred while \output is active []
 \@karnaughmap@local@coordinatetwocounter@=\count434
 \@karnaughmap@local@coordinateonecounter@=\count435
 \@karnaughmap@local@coordinatetwocounter@=\count436
-) [3] (./figs/inc/kmap/kmap_D.tex
+) [3]
+Underfull \vbox (badness 3449) has occurred while \output is active []
+
+
+(./figs/inc/kmap/kmap_D.tex
 \@karnaughmap@local@northwest@=\count437
 \@karnaughmap@local@southeast@=\count438
 \@karnaughmap@local@northwest@=\count439
 \@karnaughmap@local@southeast@=\count440
-)) [4
+)) (./hindi/kmap_disp.tex (./figs/disp/kmap/a.tex
+\@karnaughmap@local@northwest@=\count441
+\@karnaughmap@local@southeast@=\count442
+\@karnaughmap@local@northwest@=\count443
+\@karnaughmap@local@southeast@=\count444
+)
+[4] (./figs/disp/kmap/b.tex
+\@karnaughmap@local@northwest@=\count445
+\@karnaughmap@local@southeast@=\count446
+\@karnaughmap@local@northwest@=\count447
+\@karnaughmap@local@southeast@=\count448
+) (./figs/disp/kmap/c.tex
+\@karnaughmap@local@northwest@=\count449
+\@karnaughmap@local@southeast@=\count450
+) (./figs/disp/kmap/d.tex
+\@karnaughmap@local@testcaseone@=\count451
+\@karnaughmap@local@testcasetwo@=\count452
+\@karnaughmap@local@coordinateonecounter@=\count453
+\@karnaughmap@local@coordinatetwocounter@=\count454
+\@karnaughmap@local@coordinateonecounter@=\count455
+\@karnaughmap@local@coordinatetwocounter@=\count456
+\@karnaughmap@local@northwest@=\count457
+\@karnaughmap@local@southeast@=\count458
+\@karnaughmap@local@northwest@=\count459
+\@karnaughmap@local@southeast@=\count460
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./figs/disp/kmap/e.tex
+\@karnaughmap@local@testcaseone@=\count461
+\@karnaughmap@local@testcasetwo@=\count462
+\@karnaughmap@local@coordinateonecounter@=\count463
+\@karnaughmap@local@coordinatetwocounter@=\count464
+\@karnaughmap@local@coordinateonecounter@=\count465
+\@karnaughmap@local@coordinatetwocounter@=\count466
+\@karnaughmap@local@testcaseone@=\count467
+\@karnaughmap@local@testcasetwo@=\count468
+\@karnaughmap@local@coordinateonecounter@=\count469
+\@karnaughmap@local@coordinatetwocounter@=\count470
+\@karnaughmap@local@coordinateonecounter@=\count471
+\@karnaughmap@local@coordinatetwocounter@=\count472
+\@karnaughmap@local@northwest@=\count473
+\@karnaughmap@local@southeast@=\count474
+) (./figs/disp/kmap/f.tex
+\@karnaughmap@local@northwest@=\count475
+\@karnaughmap@local@southeast@=\count476
+\@karnaughmap@local@northwest@=\count477
+\@karnaughmap@local@southeast@=\count478
+\@karnaughmap@local@northwest@=\count479
+\@karnaughmap@local@southeast@=\count480
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+(./figs/disp/kmap/g.tex
+\@karnaughmap@local@northwest@=\count481
+\@karnaughmap@local@southeast@=\count482
+\@karnaughmap@local@northwest@=\count483
+\@karnaughmap@local@southeast@=\count484
+)) (./hindi/kmapX_inc.tex (./figs/inc/kmapX/B.tex
+\@karnaughmap@local@northwest@=\count485
+\@karnaughmap@local@southeast@=\count486
+\@karnaughmap@local@northwest@=\count487
+\@karnaughmap@local@southeast@=\count488
+)
+(./figs/inc/kmapX/C.tex
+\@karnaughmap@local@cellcount@=\count489
+\@karnaughmap@local@testcaseone@=\count490
+\@karnaughmap@local@testcasetwo@=\count491
+\@karnaughmap@local@coordinateonecounter@=\count492
+\@karnaughmap@local@coordinatetwocounter@=\count493
+\@karnaughmap@local@coordinateonecounter@=\count494
+\@karnaughmap@local@coordinatetwocounter@=\count495
+\@karnaughmap@local@testcaseone@=\count496
+\@karnaughmap@local@testcasetwo@=\count497
+\@karnaughmap@local@coordinateonecounter@=\count498
+\@karnaughmap@local@coordinatetwocounter@=\count499
+\@karnaughmap@local@coordinateonecounter@=\count500
+\@karnaughmap@local@coordinatetwocounter@=\count501
+\@karnaughmap@local@testcaseone@=\count502
+\@karnaughmap@local@testcasetwo@=\count503
+\@karnaughmap@local@coordinateonecounter@=\count504
+\@karnaughmap@local@coordinatetwocounter@=\count505
+\@karnaughmap@local@coordinateonecounter@=\count506
+\@karnaughmap@local@coordinatetwocounter@=\count507
+)) [6] [7
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
-
-(./gvv_digman_hindi.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 346.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 346.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 347.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 347.
+ (./gvv_digman_hindi.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 347.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 347.
 Package rerunfilecheck Info: File `gvv_digman_hindi.out' has not changed.
-(rerunfilecheck)             Checksum: F5CC6881887D24D81529A80D6488B96F;465.
+(rerunfilecheck)             Checksum: 693D4FC1C27E21268ED27AE92ED23612;730.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 347.
  ) 
 Here is how much of TeX's memory you used:
- 50244 strings out of 479418
- 1174571 string characters out of 5874903
- 1746746 words of memory out of 5000000
- 66790 multiletter control sequences out of 15000+600000
+ 51297 strings out of 479418
+ 1200914 string characters out of 5874903
+ 1842066 words of memory out of 5000000
+ 67805 multiletter control sequences out of 15000+600000
  559448 words of font info for 125 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 60i,17n,91p,679b,1232s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,91p,679b,1236s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_digman_hindi.pdf (4 pages).
+Output written on gvv_digman_hindi.pdf (7 pages).

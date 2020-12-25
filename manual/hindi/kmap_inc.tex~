@@ -14,17 +14,9 @@
 A = W^{\prime}Z^{\prime}+W^{\prime}X^{\prime}Y^{\prime} ।
 \end{equation}
 %
-निम्न अभिगृह 
-\begin{align}
-\label{eq:inc_Boolean}
-\begin{split}
-X+X^{\prime} &= 1
-\\
-XX^{\prime} &= 0,
-\end{split}
-\end{align}
+\item  \ref{eq:inc_Boolean}  एवं \eqref{eq:inc_A} के द्वारा
 %
-के उपयोग से \eqref{eq:kmap_A} को \eqref{eq:inc_A} से बूलीय बीजगणित से  प्राप्त करें ।
+\eqref{eq:kmap_A} को  बूलीय बीजगणित से  प्राप्त करें ।
 %
 %
 %
@@ -32,8 +24,18 @@ XX^{\prime} &= 0,
 \resizebox {\columnwidth} {!} {
 \input{./figs/inc/kmap/kmap_A}
 }
-\caption{$A$ का क-मानचित्र }
+\caption{$A$ का क-मानचित्र ।}
 \label{fig:kmap_A}
+\end{figure}
+%\item आकृती \ref{fig:kmap_A} में सत्य शब्द 
+\item आकृती \ref{fig:kmap} के द्वारा  $A$ के विवक्षकों की क-मानचित्र में स्थितिबद्धता का अनुमान लगाया जा सकता है ।
+%
+\begin{figure}[!h]
+\resizebox {\columnwidth} {!} {
+\input{./figs/kmap}
+}
+\caption{क-मानचित्र का विश्लेषण ।}
+\label{fig:kmap}
 \end{figure}
 
 \item $B$ का क-मानचित्र :
@@ -43,7 +45,7 @@ XX^{\prime} &= 0,
 \resizebox {\columnwidth} {!} {
 \input{./figs/inc/kmap/kmap_B}
 }
-\caption{क-मानचित्र for $B$.}
+\caption{$B$ का क-मानचित्र ।}
 \label{fig:kmap_B}
 \end{figure}
 %
@@ -64,7 +66,7 @@ B = WX^{\prime}Z^{\prime} + W^{\prime}XZ^{\prime}
 \resizebox {\columnwidth} {!} {
 \input{./figs/inc/kmap/kmap_C}
 }
-\caption{$C$ का क-मानचित्र }
+\caption{$C$ का क-मानचित्र । }
 \label{fig:kmap_C}
 \end{figure}
 %
@@ -78,10 +80,10 @@ C = WXY^{\prime}Z^{\prime}  +  X^{\prime}YZ^{\prime} + W^{\prime}YZ^{\prime}
 \item 
 बूलीय  बीजगणित विधि एवं \eqref{eq:inc_Boolean} के द्वारा  \eqref{eq:kmap_C} से \eqref{eq:inc_C} प्राप्त करें ।
 %
-\item {$D$ का क-मानचित्र }
+\item {$D$ का क-मानचित्र ।}
 बूलीय  तर्क एवं  सारणी \ref{table:counter_decoder}, से निम्न समीकरण प्राप्त होता है
 \begin{equation}
-\label{eq:D}
+\label{eq:kmap_D}
 D = WXYZ^{\prime} + W^{\prime}X^{\prime}Y^{\prime}Z
 \end{equation}
 %
@@ -96,15 +98,15 @@ D = WXYZ^{\prime} + W^{\prime}X^{\prime}Y^{\prime}Z
 \item 
 आकृति \ref{fig:kmap_D}  से  \eqref{eq:D} को प्राप्त करें।
 %
-\item पूर्व C प्रोग्रामन को संशोधित कर  
+\item \ref{code:inc_decode} में उल्लेख C प्रोग्रामन को संशोधित कर  
 %Download the code in
 %\begin{lstlisting}
 %wget https://raw.githubusercontent.com/gadepall/arduino/master/7447/codes/inc_dec/inc_dec.ino
 %\end{lstlisting}
 %
 %and modify it using 
-क-मानचित्र द्वारा उपलब्ध  A,B,C and D के समीकरण \eqref{eq:kmap_A}, \eqref{eq:kmap_A}, \eqref{eq:kmap_A}
-एवं \eqref{eq:kmap_A} को सत्यापित करें ।
+क-मानचित्र द्वारा उपलब्ध  A,B,C एवं D के समीकरण \eqref{eq:kmap_A}, \eqref{eq:kmap_B}, \eqref{eq:kmap_C}
+एवं \eqref{eq:kmap_D} को सत्यापित करें ।
 %Execute and verify.
 %\item Revise by using don't care conditions and verify through a C code.
 %\item {Display Decoder:}

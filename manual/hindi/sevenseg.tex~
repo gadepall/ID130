@@ -6,7 +6,7 @@
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
-\item  चित्र \ref{fig:sevenseg} में एक सप्तांश   प्रदर्शी प्रस्तुत है जिसमें नथ  $a,b,c,d,e,f,g$ हैं ।  हर नथ एक प्रकाश उत्सर्जक यंत्र है ।
+\item  आकृति \ref{fig:sevenseg} में एक सप्तांश   प्रदर्शी प्रस्तुत है जिसमें कुश  $a,b,c,d,e,f,g$ हैं ।  प्रत्येक कुश का संपर्क एक प्रकाश उत्सर्जक यंत्र है ।
 
 \begin{figure}[!ht]
 \centering
@@ -17,7 +17,7 @@
 \label{fig:sevenseg}
 \end{figure}
 
-\item चित्र \ref{fig:sevenseg12} सारणी \ref{table:arduioport} के माध्यम से  प्रदर्शी पर अंको को दर्शाता हैे । 0-9 तक सारे अंको को रेखांकित कर सारणी \ref{table:arduioport}  को पूर्ण करें ।
+\item आकृति \ref{fig:sevenseg12} सारणी \ref{table:arduioport} के माध्यम से  प्रदर्शी पर अंको को दर्शाता हैे । 0-9 तक सारे अंको को रेखांकित कर सारणी \ref{table:arduioport}  को पूर्ण करें ।
 
 \begin{figure}[!h]
 \begin{center}
