@@ -267,7 +267,8 @@ columns=fullflexible
 \renewcommand{\abstractname}{सार}
 \renewcommand{\nomname}{नामकरण}
 \renewcommand{\solution}{हल: }
-
+\renewcommand{\figurename}{आकृति.}
+\renewcommand{\tablename}{सारणी.}
 %\renewcommand{\theequation}{\theenumi}
 
 %\begin{abstract}
@@ -300,7 +301,7 @@ columns=fullflexible
 %\IEEEpeerreviewmaketitle
 
 \begin{abstract}
-यह आलेख  पाठकों को एक सरल विधि से अंकीय तर्क  से अवगत करने का प्रयास है।
+यह लेख प्राथमिक विद्यालयों से लेकर  विश्व विद्यालयों तक सभी  छात्रों को एक सरल विधि से अंकीय तर्क  से अवगत करने का प्रयास है।  छात्र बूलिय तर्क एवं उनके लौकिक उपयोग का 
 %ॐ श्री गणेशाय नमः॥
 %\\
 %\indent जय श्री राम।
@@ -325,25 +326,29 @@ columns=fullflexible
 \subsection{प्रदर्शी गूढ़वाचक}
 \input{hindi/kmap_disp.tex}
 %
-\section{अचिन्त्य  अवस्था}
+\section{निर्गुण अवस्था}
 \subsection{परवर्ती गूढ़वाचक}
-\input{chapters/kmapX_inc.tex}
-%\subsection{Display Decoder}
-%\input{chapters/kmapX_disp.tex}
+\input{hindi/kmapX_inc.tex}
+\subsection{प्रदर्शी गूढ़वाचक}
+\input{hindi/kmapX_disp.tex}
 %
+\section{तर्क द्वार}
+\input{hindi/gates.tex}
+\section{योग-गुणन}
+\input{hindi/kmap_inc_pos.tex}
+
 %\section{Programming}
 %%\input{chapters/prog.tex}
 %
-%\section{Logic Gates}
-%\input{chapters/gates.tex}
 %
 %
-%\section{Product of Sums}
+
 %%\subsection{Incrementing Decoder}
 %\input{chapters/kmap_inc_pos.tex}
 
 %\onecolumn
 
 \end{document}
+
 
 

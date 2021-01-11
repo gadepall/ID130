@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Termux) (preloaded format=xelatex 2020.12.13)  25 DEC 2020 18:59
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Termux) (preloaded format=xelatex 2020.12.28)  11 JAN 2021 08:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2225,15 +2225,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [1
 
 
-]) (./hindi/dispdec.tex
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2])
+(./hindi/dispdec.tex
 Underfull \hbox (badness 5563) in paragraph at lines 8--10
 []\TU/Nakula.ttf(0)/m/sc/12 निम्न समीकरण में सारणी []3.1.1[] के निर्गत
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
 (./tables/disp_dec.tex
 Overfull \hbox (1.0pt too wide) in paragraph at lines 157--157
 []|\TU/Nakula.ttf(0)/m/sc/12 x| 
@@ -2308,11 +2308,11 @@ Missing character: There is no । in font txr!
 \@karnaughmap@local@coordinatetwocounter@=\count420
 \@karnaughmap@local@coordinateonecounter@=\count421
 \@karnaughmap@local@coordinatetwocounter@=\count422
-)
+) (./figs/kmap.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./figs/kmap.tex) (./figs/inc/kmap/kmap_B.tex
+(./figs/inc/kmap/kmap_B.tex
 \@karnaughmap@local@northwest@=\count423
 \@karnaughmap@local@southeast@=\count424
 \@karnaughmap@local@northwest@=\count425
@@ -2332,27 +2332,31 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 \@karnaughmap@local@coordinatetwocounter@=\count434
 \@karnaughmap@local@coordinateonecounter@=\count435
 \@karnaughmap@local@coordinatetwocounter@=\count436
-) [3]
-Underfull \vbox (badness 3449) has occurred while \output is active []
+)
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./figs/inc/kmap/kmap_D.tex
+[3] (./figs/inc/kmap/kmap_D.tex
 \@karnaughmap@local@northwest@=\count437
 \@karnaughmap@local@southeast@=\count438
 \@karnaughmap@local@northwest@=\count439
 \@karnaughmap@local@southeast@=\count440
-)) (./hindi/kmap_disp.tex (./figs/disp/kmap/a.tex
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./hindi/kmap_disp.tex [4] (./figs/disp/kmap/a.tex
 \@karnaughmap@local@northwest@=\count441
 \@karnaughmap@local@southeast@=\count442
 \@karnaughmap@local@northwest@=\count443
 \@karnaughmap@local@southeast@=\count444
-)
-[4] (./figs/disp/kmap/b.tex
+) (./figs/disp/kmap/b.tex
 \@karnaughmap@local@northwest@=\count445
 \@karnaughmap@local@southeast@=\count446
 \@karnaughmap@local@northwest@=\count447
 \@karnaughmap@local@southeast@=\count448
-) (./figs/disp/kmap/c.tex
+)
+(./figs/disp/kmap/c.tex
 \@karnaughmap@local@northwest@=\count449
 \@karnaughmap@local@southeast@=\count450
 ) (./figs/disp/kmap/d.tex
@@ -2366,93 +2370,192 @@ Underfull \vbox (badness 3449) has occurred while \output is active []
 \@karnaughmap@local@southeast@=\count458
 \@karnaughmap@local@northwest@=\count459
 \@karnaughmap@local@southeast@=\count460
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-(./figs/disp/kmap/e.tex
-\@karnaughmap@local@testcaseone@=\count461
-\@karnaughmap@local@testcasetwo@=\count462
-\@karnaughmap@local@coordinateonecounter@=\count463
-\@karnaughmap@local@coordinatetwocounter@=\count464
+) (./figs/disp/kmap/e.tex
+\@karnaughmap@local@northwest@=\count461
+\@karnaughmap@local@southeast@=\count462
+\@karnaughmap@local@testcaseone@=\count463
+\@karnaughmap@local@testcasetwo@=\count464
 \@karnaughmap@local@coordinateonecounter@=\count465
 \@karnaughmap@local@coordinatetwocounter@=\count466
-\@karnaughmap@local@testcaseone@=\count467
-\@karnaughmap@local@testcasetwo@=\count468
-\@karnaughmap@local@coordinateonecounter@=\count469
-\@karnaughmap@local@coordinatetwocounter@=\count470
-\@karnaughmap@local@coordinateonecounter@=\count471
-\@karnaughmap@local@coordinatetwocounter@=\count472
+\@karnaughmap@local@coordinateonecounter@=\count467
+\@karnaughmap@local@coordinatetwocounter@=\count468
+\@karnaughmap@local@northwest@=\count469
+\@karnaughmap@local@southeast@=\count470
+)
+[5] (./figs/disp/kmap/f.tex
+\@karnaughmap@local@northwest@=\count471
+\@karnaughmap@local@southeast@=\count472
 \@karnaughmap@local@northwest@=\count473
 \@karnaughmap@local@southeast@=\count474
-) (./figs/disp/kmap/f.tex
 \@karnaughmap@local@northwest@=\count475
 \@karnaughmap@local@southeast@=\count476
+) (./figs/disp/kmap/g.tex
 \@karnaughmap@local@northwest@=\count477
 \@karnaughmap@local@southeast@=\count478
 \@karnaughmap@local@northwest@=\count479
 \@karnaughmap@local@southeast@=\count480
+)) (./hindi/kmapX_inc.tex
+(./figs/inc/kmapX/A.tex
+\@karnaughmap@local@testcaseone@=\count481
+\@karnaughmap@local@testcasetwo@=\count482
+\@karnaughmap@local@coordinateonecounter@=\count483
+\@karnaughmap@local@coordinatetwocounter@=\count484
+\@karnaughmap@local@coordinateonecounter@=\count485
+\@karnaughmap@local@coordinatetwocounter@=\count486
+) [6] (./figs/inc/kmapX/B.tex
+\@karnaughmap@local@northwest@=\count487
+\@karnaughmap@local@southeast@=\count488
+\@karnaughmap@local@northwest@=\count489
+\@karnaughmap@local@southeast@=\count490
+) (./figs/inc/kmapX/C.tex
+\@karnaughmap@local@testcaseone@=\count491
+\@karnaughmap@local@testcasetwo@=\count492
+\@karnaughmap@local@coordinateonecounter@=\count493
+\@karnaughmap@local@coordinatetwocounter@=\count494
+\@karnaughmap@local@coordinateonecounter@=\count495
+\@karnaughmap@local@coordinatetwocounter@=\count496
+\@karnaughmap@local@testcaseone@=\count497
+\@karnaughmap@local@testcasetwo@=\count498
+\@karnaughmap@local@coordinateonecounter@=\count499
+\@karnaughmap@local@coordinatetwocounter@=\count500
+\@karnaughmap@local@coordinateonecounter@=\count501
+\@karnaughmap@local@coordinatetwocounter@=\count502
+\@karnaughmap@local@testcaseone@=\count503
+\@karnaughmap@local@testcasetwo@=\count504
+\@karnaughmap@local@coordinateonecounter@=\count505
+\@karnaughmap@local@coordinatetwocounter@=\count506
+\@karnaughmap@local@coordinateonecounter@=\count507
+\@karnaughmap@local@coordinatetwocounter@=\count508
+)
+(./figs/inc/kmapX/D.tex
+\@karnaughmap@local@northwest@=\count509
+\@karnaughmap@local@southeast@=\count510
+\@karnaughmap@local@testcaseone@=\count511
+\@karnaughmap@local@testcasetwo@=\count512
+\@karnaughmap@local@coordinateonecounter@=\count513
+\@karnaughmap@local@coordinatetwocounter@=\count514
+\@karnaughmap@local@coordinateonecounter@=\count515
+\@karnaughmap@local@coordinatetwocounter@=\count516
+)) (./hindi/kmapX_disp.tex [7] (./figs/disp/kmapX/a.tex
+\@karnaughmap@local@northwest@=\count517
+\@karnaughmap@local@southeast@=\count518
+\@karnaughmap@local@northwest@=\count519
+\@karnaughmap@local@southeast@=\count520
+) (./figs/disp/kmapX/b.tex
+\@karnaughmap@local@northwest@=\count521
+\@karnaughmap@local@southeast@=\count522
+\@karnaughmap@local@northwest@=\count523
+\@karnaughmap@local@southeast@=\count524
+) (./figs/disp/kmapX/c.tex
+\@karnaughmap@local@testcaseone@=\count525
+\@karnaughmap@local@testcasetwo@=\count526
+\@karnaughmap@local@coordinateonecounter@=\count527
+\@karnaughmap@local@coordinatetwocounter@=\count528
+\@karnaughmap@local@coordinateonecounter@=\count529
+\@karnaughmap@local@coordinatetwocounter@=\count530
+) (./figs/disp/kmapX/d.tex
+\@karnaughmap@local@testcaseone@=\count531
+\@karnaughmap@local@testcasetwo@=\count532
+\@karnaughmap@local@coordinateonecounter@=\count533
+\@karnaughmap@local@coordinatetwocounter@=\count534
+\@karnaughmap@local@coordinateonecounter@=\count535
+\@karnaughmap@local@coordinatetwocounter@=\count536
+\@karnaughmap@local@northwest@=\count537
+\@karnaughmap@local@southeast@=\count538
+\@karnaughmap@local@northwest@=\count539
+\@karnaughmap@local@southeast@=\count540
+)
+(./figs/disp/kmapX/e.tex
+\@karnaughmap@local@northwest@=\count541
+\@karnaughmap@local@southeast@=\count542
+\@karnaughmap@local@northwest@=\count543
+\@karnaughmap@local@southeast@=\count544
+) (./figs/disp/kmapX/f.tex
+\@karnaughmap@local@testcaseone@=\count545
+\@karnaughmap@local@testcasetwo@=\count546
+\@karnaughmap@local@coordinateonecounter@=\count547
+\@karnaughmap@local@coordinatetwocounter@=\count548
+\@karnaughmap@local@coordinateonecounter@=\count549
+\@karnaughmap@local@coordinatetwocounter@=\count550
+\@karnaughmap@local@northwest@=\count551
+\@karnaughmap@local@southeast@=\count552
+\@karnaughmap@local@northwest@=\count553
+\@karnaughmap@local@southeast@=\count554
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-(./figs/disp/kmap/g.tex
-\@karnaughmap@local@northwest@=\count481
-\@karnaughmap@local@southeast@=\count482
-\@karnaughmap@local@northwest@=\count483
-\@karnaughmap@local@southeast@=\count484
-)) (./hindi/kmapX_inc.tex (./figs/inc/kmapX/B.tex
-\@karnaughmap@local@northwest@=\count485
-\@karnaughmap@local@southeast@=\count486
-\@karnaughmap@local@northwest@=\count487
-\@karnaughmap@local@southeast@=\count488
-)
-(./figs/inc/kmapX/C.tex
-\@karnaughmap@local@cellcount@=\count489
-\@karnaughmap@local@testcaseone@=\count490
-\@karnaughmap@local@testcasetwo@=\count491
-\@karnaughmap@local@coordinateonecounter@=\count492
-\@karnaughmap@local@coordinatetwocounter@=\count493
-\@karnaughmap@local@coordinateonecounter@=\count494
-\@karnaughmap@local@coordinatetwocounter@=\count495
-\@karnaughmap@local@testcaseone@=\count496
-\@karnaughmap@local@testcasetwo@=\count497
-\@karnaughmap@local@coordinateonecounter@=\count498
-\@karnaughmap@local@coordinatetwocounter@=\count499
-\@karnaughmap@local@coordinateonecounter@=\count500
-\@karnaughmap@local@coordinatetwocounter@=\count501
-\@karnaughmap@local@testcaseone@=\count502
-\@karnaughmap@local@testcasetwo@=\count503
-\@karnaughmap@local@coordinateonecounter@=\count504
-\@karnaughmap@local@coordinatetwocounter@=\count505
-\@karnaughmap@local@coordinateonecounter@=\count506
-\@karnaughmap@local@coordinatetwocounter@=\count507
-)) [6] [7
+ [8]
+(./figs/disp/kmapX/g.tex
+\@karnaughmap@local@northwest@=\count555
+\@karnaughmap@local@southeast@=\count556
+\@karnaughmap@local@northwest@=\count557
+\@karnaughmap@local@southeast@=\count558
+)) (./hindi/gates.tex (./figs/gates/B.tex)
+(./figs/gates/b_disp.tex) (./figs/gates/d_disp.tex) (./figs/gates/g.tex)
+[9]) (./hindi/kmap_inc_pos.tex
+\@karnaughmap@local@northwest@=\count559
+\@karnaughmap@local@southeast@=\count560
+\@karnaughmap@local@northwest@=\count561
+\@karnaughmap@local@southeast@=\count562
+\@karnaughmap@local@northwest@=\count563
+\@karnaughmap@local@southeast@=\count564
+\@karnaughmap@local@northwest@=\count565
+\@karnaughmap@local@southeast@=\count566
+\@karnaughmap@local@northwest@=\count567
+\@karnaughmap@local@southeast@=\count568
+\@karnaughmap@local@northwest@=\count569
+\@karnaughmap@local@southeast@=\count570
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 347.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 347.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+\@karnaughmap@local@northwest@=\count571
+\@karnaughmap@local@southeast@=\count572
+\@karnaughmap@local@northwest@=\count573
+\@karnaughmap@local@southeast@=\count574
+\@karnaughmap@local@northwest@=\count575
+\@karnaughmap@local@southeast@=\count576
+\@karnaughmap@local@coordinate@=\count577
+\@karnaughmap@local@coordinate@=\count578
+\@karnaughmap@local@coordinate@=\count579
+\@karnaughmap@local@coordinate@=\count580
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+\@karnaughmap@local@northwest@=\count581
+\@karnaughmap@local@southeast@=\count582
+\@karnaughmap@local@northwest@=\count583
+\@karnaughmap@local@southeast@=\count584
+\@karnaughmap@local@northwest@=\count585
+\@karnaughmap@local@southeast@=\count586
+\@karnaughmap@local@northwest@=\count587
+\@karnaughmap@local@southeast@=\count588
+\@karnaughmap@local@northwest@=\count589
+\@karnaughmap@local@southeast@=\count590
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [10] [11]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
  (./gvv_digman_hindi.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 347.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 347.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 351.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
 Package rerunfilecheck Info: File `gvv_digman_hindi.out' has not changed.
-(rerunfilecheck)             Checksum: 693D4FC1C27E21268ED27AE92ED23612;730.
+(rerunfilecheck)             Checksum: C8A7ABD6AA3882BC719F3478ECD38004;945.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 347.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
  ) 
 Here is how much of TeX's memory you used:
- 51297 strings out of 479418
- 1200914 string characters out of 5874903
- 1842066 words of memory out of 5000000
- 67805 multiletter control sequences out of 15000+600000
+ 53124 strings out of 479418
+ 1246488 string characters out of 5874903
+ 1869996 words of memory out of 5000000
+ 69591 multiletter control sequences out of 15000+600000
  559448 words of font info for 125 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 60i,17n,91p,679b,1236s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,91p,679b,1234s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_digman_hindi.pdf (7 pages).
+Output written on gvv_digman_hindi.pdf (11 pages).

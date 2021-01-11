@@ -1,13 +1,17 @@
+
 %\renewcommand{\theequation}{\thesection}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
 %\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
-%\numberwithin{equation}{enumi}
-%\numberwithin{figure}{enumi}
-%\numberwithin{table}{enumi}
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{figure}{section}
 
-\numberwithin{equation}{section}
-
-Using the 0s in Table \ref{table:counter_decoder}, the product of sums (POS) expressions are
-obtained from Figs. \ref{fig:kmap_A_pos}-\ref{fig:kmap_D_pos} as
+%\setcounter{figure}{0}
+%\numberwithin{table}{section}
+%\numberwithin{equation}{section}
+%\renewcommand{\thefigure}{\thesection}
+%\numberwithin{figure}{section}
+\item सारणी  \ref{table:counter_decoder} में 0 संख्याओं  की  क-मानचित्र. \ref{fig:kmap_A_pos}-\ref{fig:kmap_D_pos}  में संयुक्ति से निम्न योग-गुणन व्यंजक उपलब्ध होते हैं ।  पूर्व खंडों में समस्त बूलीय फलन के-मानचित्र में 1 अंकों के संयोग  से फलन गुणन-योग रूप में प्राप्त हुए थे.
 %
 \begin{align}
 \label{eq:kmap_A_pos}
@@ -24,8 +28,7 @@ A&=(Z^{\prime}+Y^{\prime})W^{\prime}(Z^{\prime}+X^{\prime})
 \end{align}
 %
 
-%\renewcommand{\thefigure}{\thesection}
-\numberwithin{figure}{section}
+
 
 \begin{figure}[!h]
 \centering
@@ -46,7 +49,7 @@ A&=(Z^{\prime}+Y^{\prime})W^{\prime}(Z^{\prime}+X^{\prime})
         
     \end{karnaugh-map}
 }
-\caption{POS for A}
+\caption{$A$ का योग-गुणन}
 \label{fig:kmap_A_pos}
 \end{figure}
 
@@ -70,7 +73,7 @@ A&=(Z^{\prime}+Y^{\prime})W^{\prime}(Z^{\prime}+X^{\prime})
         
     \end{karnaugh-map}
 }
-\caption{POS for B}
+\caption{$B$ का योग-गुणन}
 \label{fig:kmap_B_pos}
 \end{figure}
     
@@ -96,7 +99,7 @@ A&=(Z^{\prime}+Y^{\prime})W^{\prime}(Z^{\prime}+X^{\prime})
         
     \end{karnaugh-map}
 }
-\caption{POS for C}
+\caption{$C$ का योग-गुणन}
 \label{fig:kmap_C_pos}
 \end{figure}
 
@@ -122,8 +125,9 @@ A&=(Z^{\prime}+Y^{\prime})W^{\prime}(Z^{\prime}+X^{\prime})
         
     \end{karnaugh-map}
 }
-\caption{POS for D}
+\caption{$D$ का योग-गुणन}
 \label{fig:kmap_D_pos}
 \end{figure}
 
-
+\item  सारणी  \ref{table:disp_dec} में 0 संख्याओं  की  क-मानचित्र में संयुक्ति से योग-गुणन व्यंजक उपलब्ध करें।
+\end{enumerate}

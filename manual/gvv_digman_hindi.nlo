@@ -12,14 +12,19 @@
 \nomenclatureentry{aOutput@[{Output}]\begingroup  निर्गत\nomeqref {0.0.0}|nompageref}{1}
 \nomenclatureentry{aBoolean Algebra@[{Boolean Algebra}]\begingroup  बूलीय बीजगणित\nomeqref {0.0.0}|nompageref}{1}
 \nomenclatureentry{aVerify@[{Verify}]\begingroup  सत्यापित\nomeqref {0.0.0}|nompageref}{1}
-\nomenclatureentry{aCominational Logic@[{Cominational Logic}]\begingroup  संयोजक तर्क\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aCombinational Logic@[{Combinational Logic}]\begingroup  संयोजक तर्क\nomeqref {0.0.0}|nompageref}{1}
 \nomenclatureentry{aMinimize@[{Minimize}]\begingroup  कनिष्ठीकरण\nomeqref {0.0.0}|nompageref}{1}
 \nomenclatureentry{aExecute@[{Execute}]\begingroup  निष्पादित\nomeqref {0.0.0}|nompageref}{1}
 \nomenclatureentry{aExpression@[{Expression}]\begingroup  व्यंजक\nomeqref {0.0.0}|nompageref}{1}
 \nomenclatureentry{aEquation@[{Equation}]\begingroup  समीकरण\nomeqref {0.0.0}|nompageref}{1}
 \nomenclatureentry{aAxiom@[{Axiom}]\begingroup  अभिगृह\nomeqref {0.0.0}|nompageref}{1}
-\nomenclatureentry{aReduced@[{Reduced}]\begingroup  समानायनिक\nomeqref {0.0.0}|nompageref}{1}
-\nomenclatureentry{aProgram@[{Program}]\begingroup  प्रोग्रामन\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aReduced@[{Reduced}]\begingroup  समानयनिक\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aC Program@[{C Program}]\begingroup  C क्रमादेश\nomeqref {0.0.0}|nompageref}{1}
 \nomenclatureentry{aBinary@[{Binary}]\begingroup  द्विआधारी\nomeqref {0.0.0}|nompageref}{1}
 \nomenclatureentry{aTruth Table@[{Truth Table}]\begingroup सत्य सारणी\nomeqref {0.0.0}|nompageref}{1}
 \nomenclatureentry{aDerive@[{Derive}]\begingroup व्युत्पन्न \nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aXOR@[{XOR}]\begingroup अर्ध योग\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aComplement@[{Complement}]\begingroup पूरक\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aDecade Counter@[{Decade Counter}]\begingroup दशक गणित्र\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aDigital Logic@[{Digital Logic}]\begingroup अंकीय तर्क\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aFunction@[{Function}]\begingroup फलन\nomeqref {0.0.0}|nompageref}{1}

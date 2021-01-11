@@ -34,7 +34,7 @@ g &= A^{\prime}B^{\prime}C^{\prime}D^{\prime}+AB^{\prime}C^{\prime}D^{\prime}+AB
 \begin{table}
 \centering
 \input{./tables/disp_dec.tex}
-\caption{प्रदर्शी गूढ़वाचक की सत्य सारिणी}
+\caption{प्रदर्शी गूढ़वाचक की सत्य सारिणी ।}
 \label{table:disp_dec}
 \end{table}
 

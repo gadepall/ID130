@@ -96,7 +96,7 @@ D = WXYZ^{\prime} + W^{\prime}X^{\prime}Y^{\prime}Z
 \end{figure}
 %
 \item 
-आकृति \ref{fig:kmap_D}  से  \eqref{eq:D} को प्राप्त करें।
+आकृति \ref{fig:kmap_D}  से  \eqref{eq:kmap_D} को प्राप्त करें।
 %
 \item \ref{code:inc_decode} में उल्लेख C प्रोग्रामन को संशोधित कर  
 %Download the code in
