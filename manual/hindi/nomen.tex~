@@ -22,7 +22,6 @@
 \nomenclature{Axiom}{ अभिगृह}
 \nomenclature{Reduced}{ समानयनिक}
 \nomenclature{C Program}{ C क्रमादेश}
-\nomenclature{Program}{ प्रोग्रामन}
 \nomenclature{Binary}{ द्विआधारी}
 \nomenclature{Truth Table}{सत्य सारणी}
 \nomenclature{Derive}{व्युत्पन्न }
@@ -30,6 +29,17 @@
 \nomenclature{Complement}{पूरक}
 \nomenclature{Decade Counter}{दशक गणित्र}
 \nomenclature{Digital Logic}{अंकीय तर्क}
+\nomenclature{Function}{फलन}
+\nomenclature{Block Diagram}{खण्डारेख}
+\nomenclature{Circuit}{परिपथ}
+\nomenclature{Simplified Expression}{सरलीकृत व्यंजक}
+\nomenclature{Delay}{अतिकाल}
+\nomenclature{Synchronous}{तुल्यकालिक}
+\nomenclature{Finite State Machine}{परिमित अवस्था यंत्र}
+\nomenclature{State Transition Table}{अवस्थान्तरण सारणी}
+\nomenclature{Flip flop}{द्विविध}
+
+
 
 
 

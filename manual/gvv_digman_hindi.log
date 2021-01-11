@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Termux) (preloaded format=xelatex 2020.12.28)  11 JAN 2021 08:26
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Termux) (preloaded format=xelatex 2020.12.28)  11 JAN 2021 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2180,17 +2180,17 @@ File: ot1txtt.fd 2000/12/15 v3.1
 \c@lemma=\count408
 \c@example=\count409
 \c@rem=\count410
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 257.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 258.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 13.29996pt on input line 257.
+(Font)              scaled to size 13.29996pt on input line 258.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.30992pt on input line 257.
+(Font)              scaled to size 9.30992pt on input line 258.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 257.
+(Font)              scaled to size 6.64998pt on input line 258.
 
 
 LaTeX Font Warning: Font shape `TU/Nakula.ttf(0)/m/sc' undefined
-(Font)              using `TU/Nakula.ttf(0)/m/n' instead on input line 260.
+(Font)              using `TU/Nakula.ttf(0)/m/n' instead on input line 261.
 
 (./gvv_digman_hindi.toc)
 \tf@toc=\write6
@@ -2202,7 +2202,10 @@ LaTeX Font Warning: Font shape `TU/Nakula.ttf(0)/m/sc' undefined
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 )) (./hindi/nomen.tex) (./hindi/sevenseg.tex
-(./figs/sevenseg.tex) (./figs/sevenseg12.tex)
+(./figs/sevenseg.tex) [1
+
+
+] (./figs/sevenseg12.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2219,17 +2222,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 \gnumericColG=\skip103
 \gnumericColH=\skip104
 )) (./hindi/incdec.tex (./tables/counter_decoder.tex)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[1
-
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2])
-(./hindi/dispdec.tex
+[2]) (./hindi/dispdec.tex
 Underfull \hbox (badness 5563) in paragraph at lines 8--10
 []\TU/Nakula.ttf(0)/m/sc/12 निम्न समीकरण में सारणी []3.1.1[] के निर्गत
  []
@@ -2321,7 +2314,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./figs/inc/kmap/kmap_C.tex
+[3] (./figs/inc/kmap/kmap_C.tex
 \@karnaughmap@local@northwest@=\count427
 \@karnaughmap@local@southeast@=\count428
 \@karnaughmap@local@northwest@=\count429
@@ -2336,16 +2329,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3] (./figs/inc/kmap/kmap_D.tex
+(./figs/inc/kmap/kmap_D.tex
 \@karnaughmap@local@northwest@=\count437
 \@karnaughmap@local@southeast@=\count438
 \@karnaughmap@local@northwest@=\count439
 \@karnaughmap@local@southeast@=\count440
-)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./hindi/kmap_disp.tex [4] (./figs/disp/kmap/a.tex
+)) (./hindi/kmap_disp.tex [4]
+(./figs/disp/kmap/a.tex
 \@karnaughmap@local@northwest@=\count441
 \@karnaughmap@local@southeast@=\count442
 \@karnaughmap@local@northwest@=\count443
@@ -2355,11 +2345,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 \@karnaughmap@local@southeast@=\count446
 \@karnaughmap@local@northwest@=\count447
 \@karnaughmap@local@southeast@=\count448
-)
-(./figs/disp/kmap/c.tex
+) (./figs/disp/kmap/c.tex
 \@karnaughmap@local@northwest@=\count449
 \@karnaughmap@local@southeast@=\count450
-) (./figs/disp/kmap/d.tex
+)
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
+ [5]
+(./figs/disp/kmap/d.tex
 \@karnaughmap@local@testcaseone@=\count451
 \@karnaughmap@local@testcasetwo@=\count452
 \@karnaughmap@local@coordinateonecounter@=\count453
@@ -2381,28 +2374,28 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 \@karnaughmap@local@coordinatetwocounter@=\count468
 \@karnaughmap@local@northwest@=\count469
 \@karnaughmap@local@southeast@=\count470
-)
-[5] (./figs/disp/kmap/f.tex
+) (./figs/disp/kmap/f.tex
 \@karnaughmap@local@northwest@=\count471
 \@karnaughmap@local@southeast@=\count472
 \@karnaughmap@local@northwest@=\count473
 \@karnaughmap@local@southeast@=\count474
 \@karnaughmap@local@northwest@=\count475
 \@karnaughmap@local@southeast@=\count476
-) (./figs/disp/kmap/g.tex
+)
+(./figs/disp/kmap/g.tex
 \@karnaughmap@local@northwest@=\count477
 \@karnaughmap@local@southeast@=\count478
 \@karnaughmap@local@northwest@=\count479
 \@karnaughmap@local@southeast@=\count480
-)) (./hindi/kmapX_inc.tex
-(./figs/inc/kmapX/A.tex
+)) (./hindi/kmapX_inc.tex [6] (./figs/inc/kmapX/A.tex
 \@karnaughmap@local@testcaseone@=\count481
 \@karnaughmap@local@testcasetwo@=\count482
 \@karnaughmap@local@coordinateonecounter@=\count483
 \@karnaughmap@local@coordinatetwocounter@=\count484
 \@karnaughmap@local@coordinateonecounter@=\count485
 \@karnaughmap@local@coordinatetwocounter@=\count486
-) [6] (./figs/inc/kmapX/B.tex
+)
+(./figs/inc/kmapX/B.tex
 \@karnaughmap@local@northwest@=\count487
 \@karnaughmap@local@southeast@=\count488
 \@karnaughmap@local@northwest@=\count489
@@ -2426,8 +2419,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 \@karnaughmap@local@coordinatetwocounter@=\count506
 \@karnaughmap@local@coordinateonecounter@=\count507
 \@karnaughmap@local@coordinatetwocounter@=\count508
-)
-(./figs/inc/kmapX/D.tex
+) (./figs/inc/kmapX/D.tex
 \@karnaughmap@local@northwest@=\count509
 \@karnaughmap@local@southeast@=\count510
 \@karnaughmap@local@testcaseone@=\count511
@@ -2436,17 +2428,26 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 \@karnaughmap@local@coordinatetwocounter@=\count514
 \@karnaughmap@local@coordinateonecounter@=\count515
 \@karnaughmap@local@coordinatetwocounter@=\count516
-)) (./hindi/kmapX_disp.tex [7] (./figs/disp/kmapX/a.tex
+))
+(./hindi/kmapX_disp.tex
+Underfull \vbox (badness 1728) has occurred while \output is active []
+
+
+(./figs/disp/kmapX/a.tex
 \@karnaughmap@local@northwest@=\count517
 \@karnaughmap@local@southeast@=\count518
 \@karnaughmap@local@northwest@=\count519
 \@karnaughmap@local@southeast@=\count520
-) (./figs/disp/kmapX/b.tex
+) [7] (./figs/disp/kmapX/b.tex
 \@karnaughmap@local@northwest@=\count521
 \@karnaughmap@local@southeast@=\count522
 \@karnaughmap@local@northwest@=\count523
 \@karnaughmap@local@southeast@=\count524
-) (./figs/disp/kmapX/c.tex
+)
+Underfull \vbox (badness 5460) has occurred while \output is active []
+
+
+(./figs/disp/kmapX/c.tex
 \@karnaughmap@local@testcaseone@=\count525
 \@karnaughmap@local@testcasetwo@=\count526
 \@karnaughmap@local@coordinateonecounter@=\count527
@@ -2464,7 +2465,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 \@karnaughmap@local@southeast@=\count538
 \@karnaughmap@local@northwest@=\count539
 \@karnaughmap@local@southeast@=\count540
-)
+) [8]
 (./figs/disp/kmapX/e.tex
 \@karnaughmap@local@northwest@=\count541
 \@karnaughmap@local@southeast@=\count542
@@ -2481,31 +2482,30 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 \@karnaughmap@local@southeast@=\count552
 \@karnaughmap@local@northwest@=\count553
 \@karnaughmap@local@southeast@=\count554
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-(./figs/disp/kmapX/g.tex
+) (./figs/disp/kmapX/g.tex
 \@karnaughmap@local@northwest@=\count555
 \@karnaughmap@local@southeast@=\count556
 \@karnaughmap@local@northwest@=\count557
 \@karnaughmap@local@southeast@=\count558
-)) (./hindi/gates.tex (./figs/gates/B.tex)
-(./figs/gates/b_disp.tex) (./figs/gates/d_disp.tex) (./figs/gates/g.tex)
-[9]) (./hindi/kmap_inc_pos.tex
+))
+(./hindi/gates.tex [9] (./figs/gates/B.tex) (./figs/gates/b_disp.tex)
+(./figs/gates/d_disp.tex) (./figs/gates/g.tex)) (./hindi/kmap_inc_pos.tex
 \@karnaughmap@local@northwest@=\count559
 \@karnaughmap@local@southeast@=\count560
 \@karnaughmap@local@northwest@=\count561
 \@karnaughmap@local@southeast@=\count562
 \@karnaughmap@local@northwest@=\count563
 \@karnaughmap@local@southeast@=\count564
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 \@karnaughmap@local@northwest@=\count565
 \@karnaughmap@local@southeast@=\count566
 \@karnaughmap@local@northwest@=\count567
 \@karnaughmap@local@southeast@=\count568
 \@karnaughmap@local@northwest@=\count569
 \@karnaughmap@local@southeast@=\count570
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2535,27 +2535,92 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [10] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
+) (./hindi/decade_counter.tex (./figs/decade/decade_counter_hindi.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./figs/decade/fsm_counter_hindi.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodepartlowerbox=\box136
+\pgfnodeparttwobox=\box137
+\pgfnodepartthreebox=\box138
+\pgfnodepartfourbox=\box139
+\pgfnodeparttwentybox=\box140
+\pgfnodepartnineteenbox=\box141
+\pgfnodeparteighteenbox=\box142
+\pgfnodepartseventeenbox=\box143
+\pgfnodepartsixteenbox=\box144
+\pgfnodepartfifteenbox=\box145
+\pgfnodepartfourteenbox=\box146
+\pgfnodepartthirteenbox=\box147
+\pgfnodeparttwelvebox=\box148
+\pgfnodepartelevenbox=\box149
+\pgfnodeparttenbox=\box150
+\pgfnodepartninebox=\box151
+\pgfnodeparteightbox=\box152
+\pgfnodepartsevenbox=\box153
+\pgfnodepartsixbox=\box154
+\pgfnodepartfivebox=\box155
+))))
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./figs/decade/dff_hindi.tex
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 143.
+Missing character: There is no प in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no ् in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no र in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no व in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no र in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no ् in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no त in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no ि in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no ग in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no ू in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no ढ़ in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no व in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no ा in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no च in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no क in font [lmsans12-regular]:mapping=tex-text;!
+) (./tables/flip_flop_hindi.tex) [10]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11] [12]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
  (./gvv_digman_hindi.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 351.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 57.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `gvv_digman_hindi.out' has not changed.
-(rerunfilecheck)             Checksum: C8A7ABD6AA3882BC719F3478ECD38004;945.
+(rerunfilecheck)             Checksum: 6BFF81113E9339C884427DD2A60B574C;1379.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
- ) 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
+ ) ) 
 Here is how much of TeX's memory you used:
- 53124 strings out of 479418
- 1246488 string characters out of 5874903
- 1869996 words of memory out of 5000000
- 69591 multiletter control sequences out of 15000+600000
- 559448 words of font info for 125 fonts, out of 8000000 for 9000
+ 54100 strings out of 479418
+ 1274767 string characters out of 5874903
+ 1945226 words of memory out of 5000000
+ 70538 multiletter control sequences out of 15000+600000
+ 563892 words of font info for 140 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 60i,17n,91p,679b,1234s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,91p,679b,1497s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_digman_hindi.pdf (11 pages).
+Output written on gvv_digman_hindi.pdf (12 pages).
